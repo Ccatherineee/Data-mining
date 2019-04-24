@@ -1,0 +1,6 @@
+data_pre.ipynb是对原始数据集进行处理的源程序
+winemag-data_first150k (1).csv是处理后的数据集（文件超过50M，无法上传）
+apriori.py是对处理后的数据集进行关联规则挖掘的程序
+frequent_items.txt保存的是所有频繁项集与关联度
+association_rules_by_confidence.txt保存的是按confidence排序的所有关联规则
+association_rules_by_lift.txt保存的是按lift排序的所有关联规则
