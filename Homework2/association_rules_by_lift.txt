@@ -1,0 +1,1922 @@
+rule	support	confidence	lift
+(' Molinara"',) ==> ('"Corvina',)	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('"Corvina',)	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> ('"Corvina',)	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+('"Corvina',) ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> ('"Corvina',)	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> ('"Corvina',)	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> (' Rondinella', '"Corvina', 'Italy')	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"', ' Rondinella', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'Italy') ==> ('"Corvina',)	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'Italy') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('Veneto', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina',) ==> ('Veneto', ' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'NoRegion_2') ==> ('"Corvina',)	0.011	1.000	89.739
+('Veneto', '"Corvina', 'NoRegion_2') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('NoRegion_2', '"Corvina', 'Italy')	0.011	1.000	89.739
+('"Corvina',) ==> ('NoRegion_2', ' Molinara"', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+('NoRegion_2', ' Molinara"', 'Italy') ==> ('"Corvina',)	0.011	1.000	89.739
+('NoRegion_2', '"Corvina', 'Italy') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('Veneto', '"Corvina', 'Italy')	0.011	1.000	89.739
+('"Corvina',) ==> ('Veneto', ' Molinara"', 'Italy')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'Italy') ==> ('"Corvina',)	0.011	1.000	89.739
+('Veneto', '"Corvina', 'Italy') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('Veneto', ' Rondinella', '"Corvina')	0.011	1.000	89.739
+('"Corvina',) ==> ('Veneto', ' Molinara"', ' Rondinella')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella') ==> ('"Corvina',)	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> (' Rondinella', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('"Corvina',)	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'NoRegion_2') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('Veneto', ' Rondinella', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina',) ==> ('Veneto', ' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> ('Veneto', ' Rondinella', '"Corvina')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('Veneto', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> (' Rondinella', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"', ' Rondinella')	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> ('Veneto', ' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'NoRegion_2') ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella') ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', '"Corvina', 'NoRegion_2') ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina') ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('"Corvina',)	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina', 'NoRegion_2') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> (' Rondinella', 'Italy', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"', 'Italy', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> (' Rondinella', '"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('Italy', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> (' Rondinella', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> (' Molinara"', ' Rondinella', 'Italy')	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> (' Molinara"', 'Italy', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> (' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy', 'NoRegion_2') ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'Italy') ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'NoRegion_2') ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+('Italy', '"Corvina', 'NoRegion_2') ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'Italy') ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'Italy', ' Rondinella', 'NoRegion_2') ==> ('"Corvina',)	0.011	1.000	89.739
+(' Rondinella', 'Italy', '"Corvina', 'NoRegion_2') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('Veneto', ' Rondinella', '"Corvina', 'Italy')	0.011	1.000	89.739
+('"Corvina',) ==> ('Veneto', ' Molinara"', ' Rondinella', 'Italy')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('Veneto', '"Corvina', 'Italy')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> (' Rondinella', '"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> ('Veneto', ' Rondinella', '"Corvina')	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> ('Veneto', ' Molinara"', 'Italy')	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"', ' Rondinella', 'Italy')	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> ('Veneto', ' Molinara"', ' Rondinella')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella') ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'Italy') ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'Italy') ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina') ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'Italy') ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', '"Corvina', 'Italy') ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella', 'Italy') ==> ('"Corvina',)	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina', 'Italy') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('Veneto', 'Italy', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina',) ==> ('Veneto', ' Molinara"', 'Italy', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> ('Veneto', '"Corvina', 'Italy')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> ('Italy', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> ('Veneto', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"', 'Italy')	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"', 'Italy', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> ('Veneto', ' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'NoRegion_2') ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy', 'NoRegion_2') ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'Italy') ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', '"Corvina', 'NoRegion_2') ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+('Italy', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', '"Corvina', 'Italy') ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'Italy', 'NoRegion_2') ==> ('"Corvina',)	0.011	1.000	89.739
+('Veneto', 'Italy', '"Corvina', 'NoRegion_2') ==> (' Molinara"',)	0.011	1.000	89.739
+(' Molinara"',) ==> ('NoRegion_2', ' Rondinella', '"Corvina', 'Veneto', 'Italy')	0.011	1.000	89.739
+('"Corvina',) ==> (' Molinara"', 'NoRegion_2', ' Rondinella', 'Veneto', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2') ==> ('Veneto', ' Rondinella', '"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella') ==> ('Veneto', 'Italy', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"') ==> (' Rondinella', 'Italy', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'Italy') ==> ('Veneto', ' Rondinella', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"', ' Rondinella', 'Italy')	0.011	1.000	89.739
+(' Rondinella', '"Corvina') ==> ('Veneto', ' Molinara"', 'Italy', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', '"Corvina') ==> (' Molinara"', 'Italy', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+('"Corvina', 'Italy') ==> ('Veneto', ' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Veneto', '"Corvina', 'Italy')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'NoRegion_2') ==> (' Rondinella', '"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy', 'NoRegion_2') ==> ('Veneto', ' Rondinella', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella') ==> ('Italy', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', ' Rondinella', 'Italy') ==> ('Veneto', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'Italy') ==> (' Rondinella', '"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"', 'Italy')	0.011	1.000	89.739
+('Veneto', '"Corvina', 'NoRegion_2') ==> (' Molinara"', ' Rondinella', 'Italy')	0.011	1.000	89.739
+('Italy', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"', ' Rondinella')	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina') ==> (' Molinara"', 'Italy', 'NoRegion_2')	0.011	1.000	89.739
+(' Rondinella', '"Corvina', 'Italy') ==> ('Veneto', ' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', '"Corvina', 'Italy') ==> (' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('"Corvina', 'Italy')	0.011	1.000	89.739
+(' Molinara"', 'Italy', ' Rondinella', 'NoRegion_2') ==> ('Veneto', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Molinara"', 'Italy', 'NoRegion_2') ==> (' Rondinella', '"Corvina')	0.011	1.000	89.739
+('Veneto', ' Molinara"', ' Rondinella', 'Italy') ==> ('"Corvina', 'NoRegion_2')	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina', 'NoRegion_2') ==> (' Molinara"', 'Italy')	0.011	1.000	89.739
+(' Rondinella', 'Italy', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Molinara"')	0.011	1.000	89.739
+('Veneto', 'Italy', '"Corvina', 'NoRegion_2') ==> (' Molinara"', ' Rondinella')	0.011	1.000	89.739
+('Veneto', ' Rondinella', '"Corvina', 'Italy') ==> (' Molinara"', 'NoRegion_2')	0.011	1.000	89.739
+(' Molinara"', 'NoRegion_2', ' Rondinella', 'Veneto', 'Italy') ==> ('"Corvina',)	0.011	1.000	89.739
+('NoRegion_2', ' Rondinella', '"Corvina', 'Veneto', 'Italy') ==> (' Molinara"',)	0.011	1.000	89.739
+('"Corvina',) ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> (' Rondinella',)	0.011	1.000	89.526
+('"Corvina',) ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', '"Corvina') ==> (' Rondinella',)	0.011	1.000	89.526
+('"Corvina',) ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('"Corvina', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+('"Corvina',) ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+('"Corvina', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> ('Veneto', ' Rondinella', 'Italy')	0.011	1.000	89.526
+('Veneto', ' Molinara"') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', 'Italy') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+('"Corvina',) ==> ('NoRegion_2', ' Rondinella', 'Italy')	0.011	1.000	89.526
+('"Corvina', 'Italy') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('"Corvina', 'NoRegion_2') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+('NoRegion_2', '"Corvina', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+('"Corvina',) ==> ('Veneto', ' Rondinella', 'Italy')	0.011	1.000	89.526
+('Veneto', '"Corvina') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+('"Corvina', 'Italy') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', '"Corvina', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> ('Veneto', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', ' Molinara"') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', 'NoRegion_2') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> ('NoRegion_2', ' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', 'Italy') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', 'NoRegion_2') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+('NoRegion_2', ' Molinara"', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+('"Corvina',) ==> ('Veneto', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', '"Corvina') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('"Corvina', 'NoRegion_2') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', '"Corvina', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> ('Veneto', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> (' Rondinella', 'Italy', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'NoRegion_2') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'Italy') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', 'Italy', '"Corvina', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> ('Veneto', ' Rondinella', 'Italy')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'Italy') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"',) ==> ('Veneto', ' Rondinella', 'Italy', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', 'NoRegion_2') ==> ('Veneto', ' Rondinella', 'Italy')	0.011	1.000	89.526
+('Veneto', ' Molinara"') ==> (' Rondinella', 'Italy', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', 'Italy') ==> ('Veneto', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', ' Molinara"', 'NoRegion_2') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', 'Italy', 'NoRegion_2') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"', 'Italy') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', ' Molinara"', 'Italy', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+('"Corvina',) ==> ('Veneto', ' Rondinella', 'Italy', 'NoRegion_2')	0.011	1.000	89.526
+('"Corvina', 'NoRegion_2') ==> ('Veneto', ' Rondinella', 'Italy')	0.011	1.000	89.526
+('Veneto', '"Corvina') ==> (' Rondinella', 'Italy', 'NoRegion_2')	0.011	1.000	89.526
+('"Corvina', 'Italy') ==> ('Veneto', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', '"Corvina', 'NoRegion_2') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+('Italy', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', '"Corvina', 'Italy') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', 'Italy', '"Corvina', 'NoRegion_2') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Molinara"', '"Corvina') ==> ('Veneto', ' Rondinella', 'Italy', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Rondinella', 'Italy')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina') ==> (' Rondinella', 'Italy', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', '"Corvina', 'Italy') ==> ('Veneto', ' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina', 'NoRegion_2') ==> (' Rondinella', 'Italy')	0.011	1.000	89.526
+(' Molinara"', 'Italy', '"Corvina', 'NoRegion_2') ==> ('Veneto', ' Rondinella')	0.011	1.000	89.526
+('Veneto', ' Molinara"', '"Corvina', 'Italy') ==> (' Rondinella', 'NoRegion_2')	0.011	1.000	89.526
+(' Molinara"', 'NoRegion_2', '"Corvina', 'Veneto', 'Italy') ==> (' Rondinella',)	0.011	1.000	89.526
+(' Rondinella',) ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', ' Molinara"')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', ' Molinara"', 'Italy')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('Veneto', ' Molinara"')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy') ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('NoRegion_2', '"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('"Corvina', 'Italy')	0.011	0.998	89.526
+('NoRegion_2', ' Rondinella', 'Italy') ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', '"Corvina', 'Italy')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> ('"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('Veneto', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy') ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', ' Molinara"', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('Veneto', ' Molinara"')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'NoRegion_2') ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"', '"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+(' Rondinella',) ==> ('NoRegion_2', ' Molinara"', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> (' Molinara"', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> (' Molinara"', 'Italy')	0.011	0.998	89.526
+('NoRegion_2', ' Rondinella', 'Italy') ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> ('"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('Veneto', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'NoRegion_2') ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', ' Molinara"', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', ' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('Veneto', ' Molinara"', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'NoRegion_2') ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"', 'Italy', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> (' Molinara"', '"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> (' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'Italy', 'NoRegion_2') ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', ' Molinara"', '"Corvina', 'Italy')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"', '"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('Veneto', ' Molinara"', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy') ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', ' Molinara"', 'Italy', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('Veneto', ' Molinara"', 'Italy')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"', 'Italy', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('Veneto', ' Molinara"', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'NoRegion_2') ==> (' Molinara"', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy', 'NoRegion_2') ==> ('Veneto', ' Molinara"')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy') ==> (' Molinara"', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy', 'NoRegion_2') ==> (' Molinara"',)	0.011	0.998	89.526
+(' Rondinella',) ==> ('Veneto', 'Italy', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('Veneto', '"Corvina', 'Italy')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> ('Italy', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('Veneto', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'NoRegion_2') ==> ('"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy', 'NoRegion_2') ==> ('Veneto', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy') ==> ('"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy', 'NoRegion_2') ==> ('"Corvina',)	0.011	0.998	89.526
+(' Rondinella',) ==> (' Molinara"', 'NoRegion_2', '"Corvina', 'Veneto', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'NoRegion_2') ==> ('Veneto', ' Molinara"', '"Corvina', 'Italy')	0.011	0.998	89.526
+('Veneto', ' Rondinella') ==> (' Molinara"', 'Italy', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+(' Rondinella', 'Italy') ==> ('Veneto', ' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'NoRegion_2') ==> (' Molinara"', '"Corvina', 'Italy')	0.011	0.998	89.526
+(' Rondinella', 'Italy', 'NoRegion_2') ==> ('Veneto', ' Molinara"', '"Corvina')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy') ==> (' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.998	89.526
+('Veneto', ' Rondinella', 'Italy', 'NoRegion_2') ==> (' Molinara"', '"Corvina')	0.011	0.998	89.526
+('New York',) ==> ('Finger Lakes',)	0.010	0.622	62.167
+('Finger Lakes',) ==> ('New York',)	0.010	1.000	62.167
+('New York',) ==> ('US', 'Finger Lakes')	0.010	0.622	62.167
+('Finger Lakes',) ==> ('US', 'New York')	0.010	1.000	62.167
+('US', 'New York') ==> ('Finger Lakes',)	0.010	0.622	62.167
+('US', 'Finger Lakes') ==> ('New York',)	0.010	1.000	62.167
+('Sicily & Sardinia',) ==> ('Sicilia',)	0.011	0.668	59.309
+('Sicilia',) ==> ('Sicily & Sardinia',)	0.011	1.000	59.309
+('Sicily & Sardinia',) ==> ('Sicilia', 'NoRegion_2')	0.011	0.668	59.309
+('Sicilia',) ==> ('Sicily & Sardinia', 'NoRegion_2')	0.011	1.000	59.309
+('Sicily & Sardinia', 'NoRegion_2') ==> ('Sicilia',)	0.011	0.668	59.309
+('Sicilia', 'NoRegion_2') ==> ('Sicily & Sardinia',)	0.011	1.000	59.309
+('Sicily & Sardinia',) ==> ('Sicilia', 'Italy')	0.011	0.668	59.309
+('Sicilia',) ==> ('Sicily & Sardinia', 'Italy')	0.011	1.000	59.309
+('Sicily & Sardinia', 'Italy') ==> ('Sicilia',)	0.011	0.668	59.309
+('Sicilia', 'Italy') ==> ('Sicily & Sardinia',)	0.011	1.000	59.309
+('Sicilia',) ==> ('NoRegion_2', 'Sicily & Sardinia', 'Italy')	0.011	1.000	59.309
+('Sicily & Sardinia',) ==> ('NoRegion_2', 'Italy', 'Sicilia')	0.011	0.668	59.309
+('Italy', 'Sicilia') ==> ('Sicily & Sardinia', 'NoRegion_2')	0.011	1.000	59.309
+('NoRegion_2', 'Sicilia') ==> ('Sicily & Sardinia', 'Italy')	0.011	1.000	59.309
+('Sicily & Sardinia', 'Italy') ==> ('NoRegion_2', 'Sicilia')	0.011	0.668	59.309
+('Sicily & Sardinia', 'NoRegion_2') ==> ('Italy', 'Sicilia')	0.011	0.668	59.309
+('NoRegion_2', 'Italy', 'Sicilia') ==> ('Sicily & Sardinia',)	0.011	1.000	59.309
+('NoRegion_2', 'Sicily & Sardinia', 'Italy') ==> ('Sicilia',)	0.011	0.668	59.309
+('New Zealand',) ==> ('Marlborough',)	0.011	0.498	45.464
+('Marlborough',) ==> ('New Zealand',)	0.011	1.000	45.464
+('New Zealand',) ==> ('Marlborough', 'NoRegion_2')	0.011	0.498	45.464
+('Marlborough',) ==> ('New Zealand', 'NoRegion_2')	0.011	1.000	45.464
+('New Zealand', 'NoRegion_2') ==> ('Marlborough',)	0.011	0.498	45.464
+('Marlborough', 'NoRegion_2') ==> ('New Zealand',)	0.011	1.000	45.464
+('New Zealand',) ==> ('NoRegion_1', 'Marlborough')	0.011	0.498	45.464
+('Marlborough',) ==> ('NoRegion_1', 'New Zealand')	0.011	1.000	45.464
+('NoRegion_1', 'New Zealand') ==> ('Marlborough',)	0.011	0.498	45.464
+('NoRegion_1', 'Marlborough') ==> ('New Zealand',)	0.011	1.000	45.464
+('New Zealand',) ==> ('NoRegion_1', 'Marlborough', 'NoRegion_2')	0.011	0.498	45.464
+('Marlborough',) ==> ('NoRegion_1', 'New Zealand', 'NoRegion_2')	0.011	1.000	45.464
+('New Zealand', 'NoRegion_2') ==> ('NoRegion_1', 'Marlborough')	0.011	0.498	45.464
+('NoRegion_1', 'New Zealand') ==> ('Marlborough', 'NoRegion_2')	0.011	0.498	45.464
+('Marlborough', 'NoRegion_2') ==> ('NoRegion_1', 'New Zealand')	0.011	1.000	45.464
+('NoRegion_1', 'Marlborough') ==> ('New Zealand', 'NoRegion_2')	0.011	1.000	45.464
+('NoRegion_1', 'New Zealand', 'NoRegion_2') ==> ('Marlborough',)	0.011	0.498	45.464
+('NoRegion_1', 'Marlborough', 'NoRegion_2') ==> ('New Zealand',)	0.011	1.000	45.464
+('Germany',) ==> ('NoRegion_1', 'Riesling')	0.014	0.854	42.896
+('NoRegion_1', 'Riesling') ==> ('Germany',)	0.014	0.697	42.896
+('Germany',) ==> ('NoRegion_2', 'NoRegion_1', 'Riesling')	0.014	0.854	42.896
+('NoRegion_1', 'Riesling') ==> ('Germany', 'NoRegion_2')	0.014	0.697	42.896
+('Germany', 'NoRegion_2') ==> ('NoRegion_1', 'Riesling')	0.014	0.854	42.896
+('NoRegion_2', 'NoRegion_1', 'Riesling') ==> ('Germany',)	0.014	0.697	42.896
+('Willamette Valley',) ==> ('Pinot Noir', 'Oregon')	0.015	0.696	41.124
+('Pinot Noir', 'Oregon') ==> ('Willamette Valley',)	0.015	0.889	41.124
+('Willamette Valley',) ==> ('Pinot Noir', 'Oregon', 'US')	0.015	0.696	41.124
+('Pinot Noir', 'Oregon') ==> ('US', 'Willamette Valley')	0.015	0.889	41.124
+('US', 'Willamette Valley') ==> ('Pinot Noir', 'Oregon')	0.015	0.696	41.124
+('Pinot Noir', 'Oregon', 'US') ==> ('Willamette Valley',)	0.015	0.889	41.124
+('Veneto',) ==> (' Molinara"',)	0.011	0.425	38.097
+(' Molinara"',) ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Rondinella',)	0.011	0.426	38.097
+(' Rondinella',) ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('"Corvina',)	0.011	0.425	38.097
+('"Corvina',) ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('"Corvina', 'Italy')	0.011	0.425	38.097
+('"Corvina',) ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('Veneto', 'Italy') ==> ('"Corvina',)	0.011	0.425	38.097
+('"Corvina', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Rondinella', '"Corvina')	0.011	0.425	38.097
+(' Rondinella', '"Corvina') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Rondinella', 'NoRegion_2')	0.011	0.426	38.097
+(' Rondinella',) ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2') ==> (' Rondinella',)	0.011	0.426	38.097
+(' Rondinella', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', 'Italy')	0.011	0.425	38.097
+(' Molinara"',) ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('Veneto', 'Italy') ==> (' Molinara"',)	0.011	0.425	38.097
+(' Molinara"', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', 'NoRegion_2')	0.011	0.425	38.097
+(' Molinara"',) ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2') ==> (' Molinara"',)	0.011	0.425	38.097
+(' Molinara"', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Rondinella', 'Italy')	0.011	0.426	38.097
+(' Rondinella',) ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('Veneto', 'Italy') ==> (' Rondinella',)	0.011	0.426	38.097
+(' Rondinella', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', ' Rondinella')	0.011	0.425	38.097
+(' Molinara"', ' Rondinella') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+('"Corvina',) ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2') ==> ('"Corvina',)	0.011	0.425	38.097
+('"Corvina', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', '"Corvina')	0.011	0.425	38.097
+(' Molinara"', '"Corvina') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', ' Rondinella', 'Italy')	0.011	0.425	38.097
+('Veneto', 'Italy') ==> (' Molinara"', ' Rondinella')	0.011	0.425	38.097
+(' Molinara"', ' Rondinella') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+(' Molinara"', ' Rondinella', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Rondinella', '"Corvina', 'Italy')	0.011	0.425	38.097
+('Veneto', 'Italy') ==> (' Rondinella', '"Corvina')	0.011	0.425	38.097
+(' Rondinella', '"Corvina') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+(' Rondinella', '"Corvina', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> (' Molinara"', ' Rondinella')	0.011	0.425	38.097
+(' Molinara"', ' Rondinella') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+(' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> (' Molinara"', '"Corvina')	0.011	0.425	38.097
+(' Molinara"', '"Corvina') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+(' Molinara"', '"Corvina', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', '"Corvina', 'Italy')	0.011	0.425	38.097
+('Veneto', 'Italy') ==> (' Molinara"', '"Corvina')	0.011	0.425	38.097
+(' Molinara"', '"Corvina') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+(' Molinara"', '"Corvina', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Rondinella', '"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> (' Rondinella', '"Corvina')	0.011	0.425	38.097
+(' Rondinella', '"Corvina') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+(' Rondinella', '"Corvina', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('NoRegion_2', '"Corvina', 'Italy')	0.011	0.425	38.097
+('"Corvina',) ==> ('Veneto', 'NoRegion_2', 'Italy')	0.011	1.000	38.097
+('Veneto', 'Italy') ==> ('"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> ('"Corvina', 'Italy')	0.011	0.425	38.097
+('"Corvina', 'Italy') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+('"Corvina', 'NoRegion_2') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2', 'Italy') ==> ('"Corvina',)	0.011	0.425	38.097
+('NoRegion_2', '"Corvina', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('NoRegion_2', ' Molinara"', 'Italy')	0.011	0.425	38.097
+(' Molinara"',) ==> ('Veneto', 'NoRegion_2', 'Italy')	0.011	1.000	38.097
+('Veneto', 'Italy') ==> (' Molinara"', 'NoRegion_2')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> (' Molinara"', 'Italy')	0.011	0.425	38.097
+(' Molinara"', 'Italy') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+(' Molinara"', 'NoRegion_2') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2', 'Italy') ==> (' Molinara"',)	0.011	0.425	38.097
+('NoRegion_2', ' Molinara"', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('"Corvina', ' Molinara"', ' Rondinella')	0.011	0.425	38.097
+('"Corvina', ' Molinara"', ' Rondinella') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('NoRegion_2', ' Rondinella', 'Italy')	0.011	0.426	38.097
+(' Rondinella',) ==> ('Veneto', 'NoRegion_2', 'Italy')	0.011	1.000	38.097
+('Veneto', 'Italy') ==> (' Rondinella', 'NoRegion_2')	0.011	0.426	38.097
+('Veneto', 'NoRegion_2') ==> (' Rondinella', 'Italy')	0.011	0.426	38.097
+(' Rondinella', 'Italy') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+(' Rondinella', 'NoRegion_2') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2', 'Italy') ==> (' Rondinella',)	0.011	0.426	38.097
+('NoRegion_2', ' Rondinella', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('"Corvina', ' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> ('"Corvina', ' Molinara"', ' Rondinella')	0.011	0.425	38.097
+('"Corvina', ' Molinara"', ' Rondinella') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+('"Corvina', ' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> ('"Corvina', ' Molinara"', ' Rondinella', 'Italy')	0.011	0.425	38.097
+('Veneto', 'Italy') ==> ('"Corvina', ' Molinara"', ' Rondinella')	0.011	0.425	38.097
+('"Corvina', ' Molinara"', ' Rondinella') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('"Corvina', ' Molinara"', ' Rondinella', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', 'Italy', ' Rondinella', 'NoRegion_2')	0.011	0.425	38.097
+(' Molinara"', ' Rondinella') ==> ('Veneto', 'Italy', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2') ==> (' Molinara"', ' Rondinella', 'Italy')	0.011	0.425	38.097
+('Veneto', 'Italy') ==> (' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	0.425	38.097
+(' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+(' Molinara"', ' Rondinella', 'Italy') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'Italy', 'NoRegion_2') ==> (' Molinara"', ' Rondinella')	0.011	0.425	38.097
+(' Molinara"', 'Italy', ' Rondinella', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', 'Italy', '"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+(' Molinara"', '"Corvina') ==> ('Veneto', 'Italy', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'NoRegion_2') ==> (' Molinara"', '"Corvina', 'Italy')	0.011	0.425	38.097
+('Veneto', 'Italy') ==> (' Molinara"', '"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+(' Molinara"', '"Corvina', 'NoRegion_2') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+(' Molinara"', '"Corvina', 'Italy') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'Italy', 'NoRegion_2') ==> (' Molinara"', '"Corvina')	0.011	0.425	38.097
+(' Molinara"', 'Italy', '"Corvina', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Rondinella', 'Italy', '"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> (' Rondinella', '"Corvina', 'Italy')	0.011	0.425	38.097
+(' Rondinella', '"Corvina') ==> ('Veneto', 'Italy', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'Italy') ==> (' Rondinella', '"Corvina', 'NoRegion_2')	0.011	0.425	38.097
+(' Rondinella', '"Corvina', 'NoRegion_2') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('Veneto', 'Italy', 'NoRegion_2') ==> (' Rondinella', '"Corvina')	0.011	0.425	38.097
+(' Rondinella', '"Corvina', 'Italy') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+(' Rondinella', 'Italy', '"Corvina', 'NoRegion_2') ==> ('Veneto',)	0.011	1.000	38.097
+('Veneto',) ==> (' Molinara"', 'NoRegion_2', ' Rondinella', '"Corvina', 'Italy')	0.011	0.425	38.097
+('Veneto', 'NoRegion_2') ==> ('"Corvina', ' Molinara"', ' Rondinella', 'Italy')	0.011	0.425	38.097
+('Veneto', 'Italy') ==> ('"Corvina', ' Molinara"', ' Rondinella', 'NoRegion_2')	0.011	0.425	38.097
+('"Corvina', ' Molinara"', ' Rondinella') ==> ('Veneto', 'Italy', 'NoRegion_2')	0.011	1.000	38.097
+('Veneto', 'Italy', 'NoRegion_2') ==> ('"Corvina', ' Molinara"', ' Rondinella')	0.011	0.425	38.097
+('"Corvina', ' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Veneto', 'Italy')	0.011	1.000	38.097
+('"Corvina', ' Molinara"', ' Rondinella', 'Italy') ==> ('Veneto', 'NoRegion_2')	0.011	1.000	38.097
+(' Molinara"', 'NoRegion_2', ' Rondinella', '"Corvina', 'Italy') ==> ('Veneto',)	0.011	1.000	38.097
+('Nebbiolo', 'Italy') ==> ('Piedmont', 'NoRegion_2')	0.014	0.996	36.743
+('Piedmont', 'NoRegion_2') ==> ('Nebbiolo', 'Italy')	0.014	0.533	36.743
+('Piedmont',) ==> ('Nebbiolo', 'Italy')	0.014	0.533	36.734
+('Nebbiolo', 'Italy') ==> ('Piedmont',)	0.014	0.996	36.734
+('Piedmont',) ==> ('NoRegion_2', 'Nebbiolo', 'Italy')	0.014	0.533	36.734
+('NoRegion_2', 'Nebbiolo', 'Italy') ==> ('Piedmont',)	0.014	0.996	36.734
+('Nebbiolo', 'NoRegion_2') ==> ('Piedmont', 'Italy')	0.014	0.986	36.386
+('Piedmont', 'Italy') ==> ('Nebbiolo', 'NoRegion_2')	0.014	0.533	36.386
+('Piedmont',) ==> ('Nebbiolo', 'NoRegion_2')	0.014	0.533	36.385
+('Nebbiolo', 'NoRegion_2') ==> ('Piedmont',)	0.014	0.987	36.385
+('Nebbiolo',) ==> ('Piedmont', 'NoRegion_2')	0.014	0.974	35.907
+('Piedmont', 'NoRegion_2') ==> ('Nebbiolo',)	0.014	0.533	35.907
+('Nebbiolo',) ==> ('Piedmont', 'Italy')	0.014	0.973	35.899
+('Piedmont', 'Italy') ==> ('Nebbiolo',)	0.014	0.533	35.899
+('Nebbiolo',) ==> ('NoRegion_2', 'Piedmont', 'Italy')	0.014	0.973	35.899
+('NoRegion_2', 'Piedmont', 'Italy') ==> ('Nebbiolo',)	0.014	0.533	35.899
+('Piedmont',) ==> ('Nebbiolo',)	0.014	0.533	35.898
+('Nebbiolo',) ==> ('Piedmont',)	0.014	0.974	35.898
+('Oregon',) ==> ('Willamette Valley',)	0.022	0.711	32.892
+('Willamette Valley',) ==> ('Oregon',)	0.022	1.000	32.892
+('Oregon',) ==> ('US', 'Willamette Valley')	0.022	0.711	32.892
+('Willamette Valley',) ==> ('US', 'Oregon')	0.022	1.000	32.892
+('US', 'Oregon') ==> ('Willamette Valley',)	0.022	0.711	32.892
+('US', 'Willamette Valley') ==> ('Oregon',)	0.022	1.000	32.892
+('Oregon',) ==> ('Pinot Noir', 'Willamette Valley')	0.015	0.495	32.892
+('Pinot Noir', 'Willamette Valley') ==> ('Oregon',)	0.015	1.000	32.892
+('Oregon',) ==> ('Pinot Noir', 'Willamette Valley', 'US')	0.015	0.495	32.892
+('Pinot Noir', 'Willamette Valley') ==> ('US', 'Oregon')	0.015	1.000	32.892
+('US', 'Oregon') ==> ('Pinot Noir', 'Willamette Valley')	0.015	0.495	32.892
+('Pinot Noir', 'Willamette Valley', 'US') ==> ('Oregon',)	0.015	1.000	32.892
+('Germany',) ==> ('NoRegion_2', 'Riesling')	0.014	0.854	32.543
+('NoRegion_2', 'Riesling') ==> ('Germany',)	0.014	0.529	32.543
+('NoRegion_2', 'Riesling') ==> ('NoRegion_1', 'Germany')	0.014	0.529	32.543
+('NoRegion_1', 'Germany') ==> ('NoRegion_2', 'Riesling')	0.014	0.854	32.543
+('Mendoza',) ==> ('Mendoza Province',)	0.024	1.000	31.831
+('Mendoza Province',) ==> ('Mendoza',)	0.024	0.756	31.831
+('Mendoza',) ==> ('Mendoza Province', 'Argentina')	0.024	1.000	31.831
+('Mendoza Province',) ==> ('Mendoza', 'Argentina')	0.024	0.756	31.831
+('Mendoza', 'Argentina') ==> ('Mendoza Province',)	0.024	1.000	31.831
+('Mendoza Province', 'Argentina') ==> ('Mendoza',)	0.024	0.756	31.831
+('Mendoza',) ==> ('Mendoza Province', 'NoRegion_2')	0.024	1.000	31.831
+('Mendoza Province',) ==> ('Mendoza', 'NoRegion_2')	0.024	0.756	31.831
+('Mendoza', 'NoRegion_2') ==> ('Mendoza Province',)	0.024	1.000	31.831
+('Mendoza Province', 'NoRegion_2') ==> ('Mendoza',)	0.024	0.756	31.831
+('Mendoza Province',) ==> ('NoRegion_2', 'Mendoza', 'Argentina')	0.024	0.756	31.831
+('Mendoza',) ==> ('NoRegion_2', 'Mendoza Province', 'Argentina')	0.024	1.000	31.831
+('Mendoza Province', 'Argentina') ==> ('Mendoza', 'NoRegion_2')	0.024	0.756	31.831
+('Mendoza Province', 'NoRegion_2') ==> ('Mendoza', 'Argentina')	0.024	0.756	31.831
+('Mendoza', 'Argentina') ==> ('Mendoza Province', 'NoRegion_2')	0.024	1.000	31.831
+('Mendoza', 'NoRegion_2') ==> ('Mendoza Province', 'Argentina')	0.024	1.000	31.831
+('NoRegion_2', 'Mendoza Province', 'Argentina') ==> ('Mendoza',)	0.024	0.756	31.831
+('NoRegion_2', 'Mendoza', 'Argentina') ==> ('Mendoza Province',)	0.024	1.000	31.831
+('Rioja',) ==> ('Northern Spain',)	0.013	1.000	30.855
+('Rioja',) ==> ('Northern Spain', 'NoRegion_2')	0.013	1.000	30.855
+('Rioja', 'NoRegion_2') ==> ('Northern Spain',)	0.013	1.000	30.855
+('Rioja',) ==> ('Northern Spain', 'Spain')	0.013	1.000	30.855
+('Spain', 'Rioja') ==> ('Northern Spain',)	0.013	1.000	30.855
+('Rioja',) ==> ('Northern Spain', 'Spain', 'NoRegion_2')	0.013	1.000	30.855
+('Spain', 'Rioja') ==> ('Northern Spain', 'NoRegion_2')	0.013	1.000	30.855
+('Rioja', 'NoRegion_2') ==> ('Northern Spain', 'Spain')	0.013	1.000	30.855
+('Spain', 'Rioja', 'NoRegion_2') ==> ('Northern Spain',)	0.013	1.000	30.855
+('Northern Spain',) ==> ('Rioja',)	0.013	0.387	30.855
+('Northern Spain',) ==> ('Rioja', 'NoRegion_2')	0.013	0.387	30.855
+('Northern Spain', 'NoRegion_2') ==> ('Rioja',)	0.013	0.387	30.855
+('Northern Spain',) ==> ('Spain', 'Rioja')	0.013	0.387	30.855
+('Northern Spain', 'Spain') ==> ('Rioja',)	0.013	0.387	30.855
+('Northern Spain',) ==> ('Spain', 'Rioja', 'NoRegion_2')	0.013	0.387	30.855
+('Northern Spain', 'Spain') ==> ('Rioja', 'NoRegion_2')	0.013	0.387	30.855
+('Northern Spain', 'NoRegion_2') ==> ('Spain', 'Rioja')	0.013	0.387	30.855
+('Northern Spain', 'Spain', 'NoRegion_2') ==> ('Rioja',)	0.013	0.387	30.855
+('Australia',) ==> ('South Australia',)	0.020	0.606	30.450
+('Australia',) ==> ('South Australia', 'NoRegion_2')	0.020	0.606	30.450
+('Australia', 'NoRegion_2') ==> ('South Australia',)	0.020	0.606	30.450
+('South Australia',) ==> ('Australia',)	0.020	1.000	30.450
+('South Australia',) ==> ('Australia', 'NoRegion_2')	0.020	1.000	30.450
+('South Australia', 'NoRegion_2') ==> ('Australia',)	0.020	1.000	30.450
+('Burgundy',) ==> ('France', 'Pinot Noir')	0.012	0.414	30.121
+('Burgundy',) ==> ('France', 'Pinot Noir', 'NoRegion_2')	0.012	0.414	30.121
+('Burgundy', 'NoRegion_2') ==> ('France', 'Pinot Noir')	0.012	0.414	30.121
+('France', 'Pinot Noir') ==> ('Burgundy',)	0.012	0.860	30.121
+('France', 'Pinot Noir') ==> ('Burgundy', 'NoRegion_2')	0.012	0.860	30.121
+('France', 'Pinot Noir', 'NoRegion_2') ==> ('Burgundy',)	0.012	0.860	30.121
+('Burgundy',) ==> ('France', 'Chardonnay')	0.016	0.557	29.089
+('France', 'Chardonnay') ==> ('Burgundy',)	0.016	0.830	29.089
+('Burgundy',) ==> ('France', 'Chardonnay', 'NoRegion_2')	0.016	0.557	29.089
+('Burgundy', 'NoRegion_2') ==> ('France', 'Chardonnay')	0.016	0.557	29.089
+('France', 'Chardonnay') ==> ('Burgundy', 'NoRegion_2')	0.016	0.830	29.089
+('France', 'Chardonnay', 'NoRegion_2') ==> ('Burgundy',)	0.016	0.830	29.089
+('Portuguese Red',) ==> ('Portugal',)	0.015	1.000	28.362
+('Portugal',) ==> ('Portuguese Red',)	0.015	0.416	28.362
+('Portuguese Red',) ==> ('NoRegion_1', 'Portugal')	0.015	1.000	28.362
+('Portugal',) ==> ('NoRegion_1', 'Portuguese Red')	0.015	0.416	28.362
+('NoRegion_1', 'Portuguese Red') ==> ('Portugal',)	0.015	1.000	28.362
+('NoRegion_1', 'Portugal') ==> ('Portuguese Red',)	0.015	0.416	28.362
+('Portuguese Red',) ==> ('Portugal', 'NoRegion_2')	0.015	1.000	28.362
+('Portugal',) ==> ('Portuguese Red', 'NoRegion_2')	0.015	0.416	28.362
+('Portuguese Red', 'NoRegion_2') ==> ('Portugal',)	0.015	1.000	28.362
+('Portugal', 'NoRegion_2') ==> ('Portuguese Red',)	0.015	0.416	28.362
+('Portugal',) ==> ('NoRegion_1', 'Portuguese Red', 'NoRegion_2')	0.015	0.416	28.362
+('Portuguese Red',) ==> ('NoRegion_1', 'Portugal', 'NoRegion_2')	0.015	1.000	28.362
+('Portugal', 'NoRegion_2') ==> ('NoRegion_1', 'Portuguese Red')	0.015	0.416	28.362
+('NoRegion_1', 'Portugal') ==> ('Portuguese Red', 'NoRegion_2')	0.015	0.416	28.362
+('Portuguese Red', 'NoRegion_2') ==> ('NoRegion_1', 'Portugal')	0.015	1.000	28.362
+('NoRegion_1', 'Portuguese Red') ==> ('Portugal', 'NoRegion_2')	0.015	1.000	28.362
+('NoRegion_1', 'Portugal', 'NoRegion_2') ==> ('Portuguese Red',)	0.015	0.416	28.362
+('NoRegion_1', 'Portuguese Red', 'NoRegion_2') ==> ('Portugal',)	0.015	1.000	28.362
+('Malbec', 'Argentina') ==> ('Mendoza Province',)	0.013	0.883	28.102
+('Malbec', 'Argentina') ==> ('Mendoza Province', 'NoRegion_2')	0.013	0.883	28.102
+('NoRegion_2', 'Malbec', 'Argentina') ==> ('Mendoza Province',)	0.013	0.883	28.102
+('Mendoza Province',) ==> ('Malbec', 'Argentina')	0.013	0.400	28.102
+('Mendoza Province',) ==> ('NoRegion_2', 'Malbec', 'Argentina')	0.013	0.400	28.102
+('Mendoza Province', 'NoRegion_2') ==> ('Malbec', 'Argentina')	0.013	0.400	28.102
+('Argentina',) ==> ('Mendoza',)	0.024	0.637	26.805
+('Argentina',) ==> ('Mendoza', 'Mendoza Province')	0.024	0.637	26.805
+('Argentina',) ==> ('Mendoza', 'NoRegion_2')	0.024	0.637	26.805
+('NoRegion_2', 'Argentina') ==> ('Mendoza',)	0.024	0.637	26.805
+('Argentina',) ==> ('NoRegion_2', 'Mendoza Province', 'Mendoza')	0.024	0.637	26.805
+('NoRegion_2', 'Argentina') ==> ('Mendoza Province', 'Mendoza')	0.024	0.637	26.805
+('Mendoza Province',) ==> ('Argentina',)	0.031	1.000	26.805
+('Argentina',) ==> ('Mendoza Province',)	0.031	0.842	26.805
+('Mendoza',) ==> ('Argentina',)	0.024	1.000	26.805
+('Mendoza', 'Mendoza Province') ==> ('Argentina',)	0.024	1.000	26.805
+('Mendoza Province',) ==> ('Argentina', 'NoRegion_2')	0.031	1.000	26.805
+('Argentina',) ==> ('Mendoza Province', 'NoRegion_2')	0.031	0.842	26.805
+('Mendoza Province', 'NoRegion_2') ==> ('Argentina',)	0.031	1.000	26.805
+('Argentina', 'NoRegion_2') ==> ('Mendoza Province',)	0.031	0.842	26.805
+('Mendoza',) ==> ('NoRegion_2', 'Argentina')	0.024	1.000	26.805
+('Mendoza', 'NoRegion_2') ==> ('Argentina',)	0.024	1.000	26.805
+('Argentina',) ==> ('Malbec', 'Mendoza Province')	0.013	0.337	26.805
+('Malbec', 'Mendoza Province') ==> ('Argentina',)	0.013	1.000	26.805
+('Argentina',) ==> ('Malbec', 'Mendoza Province', 'NoRegion_2')	0.013	0.337	26.805
+('NoRegion_2', 'Argentina') ==> ('Malbec', 'Mendoza Province')	0.013	0.337	26.805
+('Malbec', 'Mendoza Province') ==> ('NoRegion_2', 'Argentina')	0.013	1.000	26.805
+('Malbec', 'Mendoza Province', 'NoRegion_2') ==> ('Argentina',)	0.013	1.000	26.805
+('Mendoza Province', 'Mendoza') ==> ('NoRegion_2', 'Argentina')	0.024	1.000	26.805
+('NoRegion_2', 'Mendoza Province', 'Mendoza') ==> ('Argentina',)	0.024	1.000	26.805
+('Tempranillo', 'Spain') ==> ('Northern Spain',)	0.012	0.832	25.667
+('Tempranillo', 'Spain') ==> ('Northern Spain', 'NoRegion_2')	0.012	0.832	25.667
+('Tempranillo', 'Spain', 'NoRegion_2') ==> ('Northern Spain',)	0.012	0.832	25.667
+('Northern Spain',) ==> ('Tempranillo', 'Spain')	0.012	0.365	25.667
+('Northern Spain',) ==> ('Tempranillo', 'Spain', 'NoRegion_2')	0.012	0.365	25.667
+('Northern Spain', 'NoRegion_2') ==> ('Tempranillo', 'Spain')	0.012	0.365	25.667
+('Northern Spain',) ==> ('Tempranillo', 'NoRegion_2')	0.012	0.365	24.656
+('Tempranillo', 'NoRegion_2') ==> ('Northern Spain',)	0.012	0.799	24.656
+('Tempranillo', 'NoRegion_2') ==> ('Northern Spain', 'Spain')	0.012	0.799	24.656
+('Northern Spain', 'Spain') ==> ('Tempranillo', 'NoRegion_2')	0.012	0.365	24.656
+('France', 'Bordeaux-style Red Blend') ==> ('Bordeaux', 'NoDesignation')	0.016	0.498	24.379
+('Bordeaux', 'NoDesignation') ==> ('France', 'Bordeaux-style Red Blend')	0.016	0.801	24.379
+('France', 'Bordeaux-style Red Blend') ==> ('Bordeaux', 'NoDesignation', 'NoRegion_2')	0.016	0.498	24.379
+('Bordeaux', 'NoDesignation') ==> ('Bordeaux-style Red Blend', 'France', 'NoRegion_2')	0.016	0.801	24.379
+('Bordeaux-style Red Blend', 'France', 'NoRegion_2') ==> ('Bordeaux', 'NoDesignation')	0.016	0.498	24.379
+('Bordeaux', 'NoDesignation', 'NoRegion_2') ==> ('France', 'Bordeaux-style Red Blend')	0.016	0.801	24.379
+('Bordeaux',) ==> ('France', 'NoDesignation', 'Bordeaux-style Red Blend')	0.016	0.404	24.287
+('France', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('Bordeaux',)	0.016	0.983	24.287
+('Bordeaux',) ==> ('Bordeaux-style Red Blend', 'France', 'NoDesignation', 'NoRegion_2')	0.016	0.404	24.287
+('Bordeaux', 'NoRegion_2') ==> ('France', 'NoDesignation', 'Bordeaux-style Red Blend')	0.016	0.404	24.287
+('France', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('Bordeaux', 'NoRegion_2')	0.016	0.983	24.287
+('Bordeaux-style Red Blend', 'France', 'NoDesignation', 'NoRegion_2') ==> ('Bordeaux',)	0.016	0.983	24.287
+('Bordeaux',) ==> ('NoRegion_2', 'NoDesignation', 'Bordeaux-style Red Blend')	0.016	0.404	23.925
+('NoRegion_2', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('Bordeaux',)	0.016	0.969	23.925
+('France', 'Bordeaux') ==> ('Bordeaux-style Red Blend', 'NoDesignation', 'NoRegion_2')	0.016	0.404	23.925
+('Bordeaux-style Red Blend', 'NoDesignation', 'NoRegion_2') ==> ('France', 'Bordeaux')	0.016	0.969	23.925
+('Bordeaux',) ==> ('France', 'Bordeaux-style Red Blend')	0.032	0.784	23.868
+('France', 'Bordeaux-style Red Blend') ==> ('Bordeaux',)	0.032	0.966	23.868
+('Bordeaux',) ==> ('NoRegion_2', 'France', 'Bordeaux-style Red Blend')	0.032	0.784	23.868
+('France', 'Bordeaux-style Red Blend') ==> ('Bordeaux', 'NoRegion_2')	0.032	0.966	23.868
+('Bordeaux', 'NoRegion_2') ==> ('France', 'Bordeaux-style Red Blend')	0.032	0.784	23.868
+('NoRegion_2', 'France', 'Bordeaux-style Red Blend') ==> ('Bordeaux',)	0.032	0.966	23.868
+('Germany',) ==> ('Riesling',)	0.014	0.854	23.331
+('Riesling',) ==> ('Germany',)	0.014	0.379	23.331
+('Riesling',) ==> ('Germany', 'NoRegion_2')	0.014	0.379	23.331
+('Germany', 'NoRegion_2') ==> ('Riesling',)	0.014	0.854	23.331
+('Riesling',) ==> ('NoRegion_1', 'Germany')	0.014	0.379	23.331
+('NoRegion_1', 'Germany') ==> ('Riesling',)	0.014	0.854	23.331
+('Riesling',) ==> ('NoRegion_1', 'Germany', 'NoRegion_2')	0.014	0.379	23.331
+('NoRegion_1', 'Germany', 'NoRegion_2') ==> ('Riesling',)	0.014	0.854	23.331
+('Russian River Valley',) ==> ('Pinot Noir', 'Sonoma')	0.011	0.454	23.271
+('Pinot Noir', 'Sonoma') ==> ('Russian River Valley',)	0.011	0.551	23.271
+('Russian River Valley',) ==> ('Sonoma', 'Pinot Noir', 'US')	0.011	0.454	23.271
+('Pinot Noir', 'Sonoma') ==> ('US', 'Russian River Valley')	0.011	0.551	23.271
+('US', 'Russian River Valley') ==> ('Pinot Noir', 'Sonoma')	0.011	0.454	23.271
+('Sonoma', 'Pinot Noir', 'US') ==> ('Russian River Valley',)	0.011	0.551	23.271
+('Russian River Valley',) ==> ('California', 'Pinot Noir', 'Sonoma')	0.011	0.454	23.271
+('California', 'Russian River Valley') ==> ('Pinot Noir', 'Sonoma')	0.011	0.454	23.271
+('Pinot Noir', 'Sonoma') ==> ('California', 'Russian River Valley')	0.011	0.551	23.271
+('California', 'Pinot Noir', 'Sonoma') ==> ('Russian River Valley',)	0.011	0.551	23.271
+('Russian River Valley',) ==> ('California', 'Pinot Noir', 'US', 'Sonoma')	0.011	0.454	23.271
+('California', 'Russian River Valley') ==> ('US', 'Pinot Noir', 'Sonoma')	0.011	0.454	23.271
+('US', 'Russian River Valley') ==> ('California', 'Pinot Noir', 'Sonoma')	0.011	0.454	23.271
+('Pinot Noir', 'Sonoma') ==> ('California', 'US', 'Russian River Valley')	0.011	0.551	23.271
+('California', 'US', 'Russian River Valley') ==> ('Pinot Noir', 'Sonoma')	0.011	0.454	23.271
+('California', 'Pinot Noir', 'Sonoma') ==> ('US', 'Russian River Valley')	0.011	0.551	23.271
+('US', 'Pinot Noir', 'Sonoma') ==> ('California', 'Russian River Valley')	0.011	0.551	23.271
+('California', 'Pinot Noir', 'US', 'Sonoma') ==> ('Russian River Valley',)	0.011	0.551	23.271
+('Bordeaux',) ==> ('NoDesignation', 'Bordeaux-style Red Blend')	0.016	0.404	23.083
+('NoDesignation', 'Bordeaux-style Red Blend') ==> ('Bordeaux',)	0.016	0.935	23.083
+('NoDesignation', 'Bordeaux-style Red Blend') ==> ('France', 'Bordeaux')	0.016	0.935	23.083
+('France', 'Bordeaux') ==> ('NoDesignation', 'Bordeaux-style Red Blend')	0.016	0.404	23.083
+('NoDesignation', 'Bordeaux-style Red Blend') ==> ('Bordeaux', 'NoRegion_2')	0.016	0.935	23.083
+('Bordeaux', 'NoRegion_2') ==> ('NoDesignation', 'Bordeaux-style Red Blend')	0.016	0.404	23.083
+('NoDesignation', 'Bordeaux-style Red Blend') ==> ('France', 'Bordeaux', 'NoRegion_2')	0.016	0.935	23.083
+('France', 'Bordeaux', 'NoRegion_2') ==> ('NoDesignation', 'Bordeaux-style Red Blend')	0.016	0.404	23.083
+('NoRegion_2', 'Bordeaux-style Red Blend') ==> ('Bordeaux', 'NoDesignation')	0.016	0.441	21.577
+('Bordeaux-style Red Blend', 'NoRegion_2') ==> ('France', 'Bordeaux', 'NoDesignation')	0.016	0.441	21.577
+('Bordeaux', 'NoDesignation') ==> ('NoRegion_2', 'Bordeaux-style Red Blend')	0.016	0.801	21.577
+('France', 'Bordeaux', 'NoDesignation') ==> ('Bordeaux-style Red Blend', 'NoRegion_2')	0.016	0.801	21.577
+('Mendoza Province',) ==> ('Malbec', 'NoRegion_2')	0.013	0.400	21.573
+('Malbec', 'NoRegion_2') ==> ('Mendoza Province',)	0.013	0.678	21.573
+('Mendoza Province', 'Argentina') ==> ('Malbec', 'NoRegion_2')	0.013	0.400	21.573
+('Malbec', 'NoRegion_2') ==> ('Mendoza Province', 'Argentina')	0.013	0.678	21.573
+('Tempranillo',) ==> ('Northern Spain',)	0.012	0.697	21.501
+('Tempranillo',) ==> ('Northern Spain', 'Spain')	0.012	0.697	21.501
+('Tempranillo',) ==> ('Northern Spain', 'NoRegion_2')	0.012	0.697	21.501
+('Tempranillo',) ==> ('Northern Spain', 'Spain', 'NoRegion_2')	0.012	0.697	21.501
+('Northern Spain',) ==> ('Tempranillo',)	0.012	0.365	21.501
+('Northern Spain', 'Spain') ==> ('Tempranillo',)	0.012	0.365	21.501
+('Northern Spain', 'NoRegion_2') ==> ('Tempranillo',)	0.012	0.365	21.501
+('Northern Spain', 'Spain', 'NoRegion_2') ==> ('Tempranillo',)	0.012	0.365	21.501
+('NoRegion_2', 'Bordeaux-style Red Blend') ==> ('Bordeaux',)	0.032	0.855	21.125
+('NoRegion_2', 'Bordeaux-style Red Blend') ==> ('France', 'Bordeaux')	0.032	0.855	21.125
+('Bordeaux',) ==> ('NoRegion_2', 'Bordeaux-style Red Blend')	0.032	0.784	21.125
+('France', 'Bordeaux') ==> ('NoRegion_2', 'Bordeaux-style Red Blend')	0.032	0.784	21.125
+('Toscana',) ==> ('Tuscany',)	0.012	1.000	20.731
+('Brunello di Montalcino',) ==> ('Tuscany',)	0.012	1.000	20.731
+('Toscana',) ==> ('NoRegion_2', 'Tuscany')	0.012	1.000	20.731
+('Toscana', 'NoRegion_2') ==> ('Tuscany',)	0.012	1.000	20.731
+('Toscana',) ==> ('Tuscany', 'Italy')	0.012	1.000	20.731
+('Toscana', 'Italy') ==> ('Tuscany',)	0.012	1.000	20.731
+('Brunello di Montalcino',) ==> ('Tuscany', 'Italy')	0.012	1.000	20.731
+('Brunello di Montalcino', 'Italy') ==> ('Tuscany',)	0.012	1.000	20.731
+('Brunello di Montalcino',) ==> ('NoRegion_2', 'Tuscany')	0.012	1.000	20.731
+('Brunello di Montalcino', 'NoRegion_2') ==> ('Tuscany',)	0.012	1.000	20.731
+('Brunello di Montalcino',) ==> ('NoRegion_2', 'Tuscany', 'Italy')	0.012	1.000	20.731
+('Brunello di Montalcino', 'Italy') ==> ('NoRegion_2', 'Tuscany')	0.012	1.000	20.731
+('Brunello di Montalcino', 'NoRegion_2') ==> ('Tuscany', 'Italy')	0.012	1.000	20.731
+('NoRegion_2', 'Brunello di Montalcino', 'Italy') ==> ('Tuscany',)	0.012	1.000	20.731
+('Toscana',) ==> ('NoRegion_2', 'Tuscany', 'Italy')	0.012	1.000	20.731
+('Toscana', 'Italy') ==> ('NoRegion_2', 'Tuscany')	0.012	1.000	20.731
+('Toscana', 'NoRegion_2') ==> ('Tuscany', 'Italy')	0.012	1.000	20.731
+('NoRegion_2', 'Toscana', 'Italy') ==> ('Tuscany',)	0.012	1.000	20.731
+('Argentina',) ==> ('Malbec', 'NoRegion_2')	0.014	0.382	20.578
+('Malbec', 'NoRegion_2') ==> ('Argentina',)	0.014	0.768	20.578
+('Tuscany',) ==> ('Sangiovese', 'Italy')	0.017	0.348	19.284
+('Sangiovese', 'Italy') ==> ('Tuscany',)	0.017	0.930	19.284
+('Tuscany',) ==> ('NoRegion_2', 'Sangiovese', 'Italy')	0.017	0.348	19.284
+('Sangiovese', 'Italy') ==> ('NoRegion_2', 'Tuscany')	0.017	0.930	19.284
+('NoRegion_2', 'Tuscany') ==> ('Sangiovese', 'Italy')	0.017	0.348	19.284
+('NoRegion_2', 'Sangiovese', 'Italy') ==> ('Tuscany',)	0.017	0.930	19.284
+('Tuscany',) ==> ('Sangiovese', 'NoRegion_2')	0.017	0.348	19.080
+('Sangiovese', 'NoRegion_2') ==> ('Tuscany',)	0.017	0.920	19.080
+('Tuscany', 'Italy') ==> ('Sangiovese', 'NoRegion_2')	0.017	0.348	19.080
+('Sangiovese', 'NoRegion_2') ==> ('Tuscany', 'Italy')	0.017	0.920	19.080
+('Columbia Valley', 'NoDesignation') ==> ('Columbia Valley (WA)',)	0.014	0.623	18.891
+('Columbia Valley', 'NoDesignation') ==> ('US', 'Columbia Valley (WA)')	0.014	0.623	18.891
+('Columbia Valley', 'US', 'NoDesignation') ==> ('Columbia Valley (WA)',)	0.014	0.623	18.891
+('Columbia Valley', 'NoDesignation') ==> ('Washington', 'Columbia Valley (WA)')	0.014	0.623	18.891
+('Columbia Valley', 'NoDesignation', 'Washington') ==> ('Columbia Valley (WA)',)	0.014	0.623	18.891
+('Columbia Valley', 'NoDesignation') ==> ('US', 'Washington', 'Columbia Valley (WA)')	0.014	0.623	18.891
+('Columbia Valley', 'NoDesignation', 'Washington') ==> ('US', 'Columbia Valley (WA)')	0.014	0.623	18.891
+('Columbia Valley', 'NoDesignation', 'US') ==> ('Washington', 'Columbia Valley (WA)')	0.014	0.623	18.891
+('Columbia Valley', 'NoDesignation', 'Washington', 'US') ==> ('Columbia Valley (WA)',)	0.014	0.623	18.891
+('Columbia Valley (WA)',) ==> ('Columbia Valley', 'NoDesignation')	0.014	0.416	18.891
+('Columbia Valley (WA)',) ==> ('Columbia Valley', 'US', 'NoDesignation')	0.014	0.416	18.891
+('US', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'NoDesignation')	0.014	0.416	18.891
+('Columbia Valley (WA)',) ==> ('Columbia Valley', 'NoDesignation', 'Washington')	0.014	0.416	18.891
+('Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'NoDesignation')	0.014	0.416	18.891
+('Columbia Valley (WA)',) ==> ('Columbia Valley', 'NoDesignation', 'Washington', 'US')	0.014	0.416	18.891
+('Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'NoDesignation', 'US')	0.014	0.416	18.891
+('US', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'NoDesignation', 'Washington')	0.014	0.416	18.891
+('US', 'Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'NoDesignation')	0.014	0.416	18.891
+('Malbec',) ==> ('Mendoza Province',)	0.013	0.591	18.807
+('Mendoza Province',) ==> ('Malbec',)	0.013	0.400	18.807
+('Malbec',) ==> ('Mendoza Province', 'NoRegion_2')	0.013	0.591	18.807
+('Mendoza Province', 'NoRegion_2') ==> ('Malbec',)	0.013	0.400	18.807
+('Malbec',) ==> ('Mendoza Province', 'Argentina')	0.013	0.591	18.807
+('Mendoza Province', 'Argentina') ==> ('Malbec',)	0.013	0.400	18.807
+('Malbec',) ==> ('NoRegion_2', 'Mendoza Province', 'Argentina')	0.013	0.591	18.807
+('NoRegion_2', 'Mendoza Province', 'Argentina') ==> ('Malbec',)	0.013	0.400	18.807
+('Rioja',) ==> ('Spain',)	0.013	1.000	18.256
+('Northern Spain',) ==> ('Spain',)	0.032	1.000	18.256
+('Spain',) ==> ('Northern Spain',)	0.032	0.592	18.256
+('Northern Spain', 'Rioja') ==> ('Spain',)	0.013	1.000	18.256
+('Northern Spain',) ==> ('Spain', 'NoRegion_2')	0.032	1.000	18.256
+('Spain',) ==> ('Northern Spain', 'NoRegion_2')	0.032	0.592	18.256
+('Northern Spain', 'NoRegion_2') ==> ('Spain',)	0.032	1.000	18.256
+('Spain', 'NoRegion_2') ==> ('Northern Spain',)	0.032	0.592	18.256
+('Tempranillo', 'Northern Spain') ==> ('Spain',)	0.012	1.000	18.256
+('Rioja',) ==> ('Spain', 'NoRegion_2')	0.013	1.000	18.256
+('Rioja', 'NoRegion_2') ==> ('Spain',)	0.013	1.000	18.256
+('Tempranillo', 'Northern Spain') ==> ('Spain', 'NoRegion_2')	0.012	1.000	18.256
+('Tempranillo', 'Northern Spain', 'NoRegion_2') ==> ('Spain',)	0.012	1.000	18.256
+('Northern Spain', 'Rioja') ==> ('Spain', 'NoRegion_2')	0.013	1.000	18.256
+('Northern Spain', 'Rioja', 'NoRegion_2') ==> ('Spain',)	0.013	1.000	18.256
+('Malbec',) ==> ('Argentina',)	0.014	0.669	17.940
+('Argentina',) ==> ('Malbec',)	0.014	0.382	17.940
+('Malbec',) ==> ('NoRegion_2', 'Argentina')	0.014	0.669	17.940
+('NoRegion_2', 'Argentina') ==> ('Malbec',)	0.014	0.382	17.940
+('Columbia Valley (WA)',) ==> ('NoDesignation', 'Washington')	0.014	0.416	17.539
+('NoDesignation', 'Washington') ==> ('Columbia Valley (WA)',)	0.014	0.578	17.539
+('Columbia Valley (WA)',) ==> ('US', 'Washington', 'NoDesignation')	0.014	0.416	17.539
+('NoDesignation', 'Washington') ==> ('US', 'Columbia Valley (WA)')	0.014	0.578	17.539
+('US', 'Columbia Valley (WA)') ==> ('NoDesignation', 'Washington')	0.014	0.416	17.539
+('US', 'Washington', 'NoDesignation') ==> ('Columbia Valley (WA)',)	0.014	0.578	17.539
+('NoDesignation', 'Washington') ==> ('Columbia Valley', 'Columbia Valley (WA)')	0.014	0.578	17.539
+('Columbia Valley', 'Columbia Valley (WA)') ==> ('NoDesignation', 'Washington')	0.014	0.416	17.539
+('Columbia Valley', 'Columbia Valley (WA)') ==> ('NoDesignation', 'Washington', 'US')	0.014	0.416	17.539
+('NoDesignation', 'Washington') ==> ('Columbia Valley', 'US', 'Columbia Valley (WA)')	0.014	0.578	17.539
+('Columbia Valley', 'US', 'Columbia Valley (WA)') ==> ('NoDesignation', 'Washington')	0.014	0.416	17.539
+('NoDesignation', 'Washington', 'US') ==> ('Columbia Valley', 'Columbia Valley (WA)')	0.014	0.578	17.539
+('Tempranillo', 'NoRegion_2') ==> ('Spain',)	0.014	0.961	17.537
+('Napa Valley',) ==> ('NoDesignation', 'Napa')	0.018	0.432	17.282
+('NoDesignation', 'Napa') ==> ('Napa Valley',)	0.018	0.711	17.282
+('Napa Valley',) ==> ('US', 'NoDesignation', 'Napa')	0.018	0.432	17.282
+('US', 'Napa Valley') ==> ('NoDesignation', 'Napa')	0.018	0.432	17.282
+('NoDesignation', 'Napa') ==> ('US', 'Napa Valley')	0.018	0.711	17.282
+('US', 'NoDesignation', 'Napa') ==> ('Napa Valley',)	0.018	0.711	17.282
+('Napa Valley',) ==> ('California', 'NoDesignation', 'Napa')	0.018	0.432	17.282
+('NoDesignation', 'Napa') ==> ('California', 'Napa Valley')	0.018	0.711	17.282
+('California', 'Napa Valley') ==> ('NoDesignation', 'Napa')	0.018	0.432	17.282
+('California', 'NoDesignation', 'Napa') ==> ('Napa Valley',)	0.018	0.711	17.282
+('Napa Valley',) ==> ('California', 'NoDesignation', 'US', 'Napa')	0.018	0.432	17.282
+('NoDesignation', 'Napa') ==> ('California', 'US', 'Napa Valley')	0.018	0.711	17.282
+('California', 'Napa Valley') ==> ('US', 'NoDesignation', 'Napa')	0.018	0.432	17.282
+('US', 'Napa Valley') ==> ('California', 'NoDesignation', 'Napa')	0.018	0.432	17.282
+('California', 'NoDesignation', 'Napa') ==> ('US', 'Napa Valley')	0.018	0.711	17.282
+('US', 'NoDesignation', 'Napa') ==> ('California', 'Napa Valley')	0.018	0.711	17.282
+('California', 'US', 'Napa Valley') ==> ('NoDesignation', 'Napa')	0.018	0.432	17.282
+('California', 'NoDesignation', 'US', 'Napa') ==> ('Napa Valley',)	0.018	0.711	17.282
+('NoDesignation', 'Napa Valley') ==> ('Napa',)	0.018	1.000	16.736
+('Cabernet Sauvignon', 'Napa Valley') ==> ('Napa',)	0.017	1.000	16.736
+('NoDesignation', 'Napa Valley') ==> ('US', 'Napa')	0.018	1.000	16.736
+('US', 'NoDesignation', 'Napa Valley') ==> ('Napa',)	0.018	1.000	16.736
+('Cabernet Sauvignon', 'Napa Valley') ==> ('US', 'Napa')	0.017	1.000	16.736
+('US', 'Cabernet Sauvignon', 'Napa Valley') ==> ('Napa',)	0.017	1.000	16.736
+('Cabernet Sauvignon', 'Napa Valley') ==> ('California', 'Napa')	0.017	1.000	16.736
+('California', 'Cabernet Sauvignon', 'Napa Valley') ==> ('Napa',)	0.017	1.000	16.736
+('NoDesignation', 'Napa Valley') ==> ('California', 'Napa')	0.018	1.000	16.736
+('California', 'NoDesignation', 'Napa Valley') ==> ('Napa',)	0.018	1.000	16.736
+('NoDesignation', 'Napa Valley') ==> ('California', 'US', 'Napa')	0.018	1.000	16.736
+('California', 'NoDesignation', 'Napa Valley') ==> ('US', 'Napa')	0.018	1.000	16.736
+('US', 'NoDesignation', 'Napa Valley') ==> ('California', 'Napa')	0.018	1.000	16.736
+('California', 'NoDesignation', 'US', 'Napa Valley') ==> ('Napa',)	0.018	1.000	16.736
+('Cabernet Sauvignon', 'Napa Valley') ==> ('California', 'US', 'Napa')	0.017	1.000	16.736
+('California', 'Cabernet Sauvignon', 'Napa Valley') ==> ('US', 'Napa')	0.017	1.000	16.736
+('US', 'Cabernet Sauvignon', 'Napa Valley') ==> ('California', 'Napa')	0.017	1.000	16.736
+('California', 'US', 'Cabernet Sauvignon', 'Napa Valley') ==> ('Napa',)	0.017	1.000	16.736
+('Napa',) ==> ('Napa Valley',)	0.041	0.688	16.733
+('Napa Valley',) ==> ('Napa',)	0.041	1.000	16.733
+('Napa Valley',) ==> ('California', 'Napa')	0.041	1.000	16.733
+('Napa',) ==> ('California', 'Napa Valley')	0.041	0.688	16.733
+('California', 'Napa Valley') ==> ('Napa',)	0.041	1.000	16.733
+('California', 'Napa') ==> ('Napa Valley',)	0.041	0.688	16.733
+('Napa Valley',) ==> ('US', 'Napa')	0.041	1.000	16.733
+('Napa',) ==> ('US', 'Napa Valley')	0.041	0.688	16.733
+('US', 'Napa Valley') ==> ('Napa',)	0.041	1.000	16.733
+('US', 'Napa') ==> ('Napa Valley',)	0.041	0.688	16.733
+('Napa',) ==> ('California', 'US', 'Napa Valley')	0.041	0.688	16.733
+('Napa Valley',) ==> ('California', 'US', 'Napa')	0.041	1.000	16.733
+('California', 'Napa') ==> ('US', 'Napa Valley')	0.041	0.688	16.733
+('US', 'Napa') ==> ('California', 'Napa Valley')	0.041	0.688	16.733
+('California', 'Napa Valley') ==> ('US', 'Napa')	0.041	1.000	16.733
+('US', 'Napa Valley') ==> ('California', 'Napa')	0.041	1.000	16.733
+('California', 'US', 'Napa') ==> ('Napa Valley',)	0.041	0.688	16.733
+('California', 'US', 'Napa Valley') ==> ('Napa',)	0.041	1.000	16.733
+('Columbia Valley',) ==> ('Columbia Valley (WA)',)	0.033	0.543	16.484
+('Columbia Valley (WA)',) ==> ('Columbia Valley',)	0.033	1.000	16.484
+('Columbia Valley',) ==> ('Washington', 'Columbia Valley (WA)')	0.033	0.543	16.484
+('Columbia Valley (WA)',) ==> ('Columbia Valley', 'Washington')	0.033	1.000	16.484
+('Columbia Valley', 'Washington') ==> ('Columbia Valley (WA)',)	0.033	0.543	16.484
+('Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley',)	0.033	1.000	16.484
+('NoDesignation', 'Columbia Valley (WA)') ==> ('Columbia Valley',)	0.014	1.000	16.484
+('Columbia Valley',) ==> ('US', 'Columbia Valley (WA)')	0.033	0.543	16.484
+('Columbia Valley (WA)',) ==> ('Columbia Valley', 'US')	0.033	1.000	16.484
+('Columbia Valley', 'US') ==> ('Columbia Valley (WA)',)	0.033	0.543	16.484
+('US', 'Columbia Valley (WA)') ==> ('Columbia Valley',)	0.033	1.000	16.484
+('NoDesignation', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'US')	0.014	1.000	16.484
+('US', 'NoDesignation', 'Columbia Valley (WA)') ==> ('Columbia Valley',)	0.014	1.000	16.484
+('Columbia Valley',) ==> ('US', 'Washington', 'Columbia Valley (WA)')	0.033	0.543	16.484
+('Columbia Valley (WA)',) ==> ('Columbia Valley', 'US', 'Washington')	0.033	1.000	16.484
+('Columbia Valley', 'Washington') ==> ('US', 'Columbia Valley (WA)')	0.033	0.543	16.484
+('Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'US')	0.033	1.000	16.484
+('Columbia Valley', 'US') ==> ('Washington', 'Columbia Valley (WA)')	0.033	0.543	16.484
+('US', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'Washington')	0.033	1.000	16.484
+('Columbia Valley', 'US', 'Washington') ==> ('Columbia Valley (WA)',)	0.033	0.543	16.484
+('US', 'Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley',)	0.033	1.000	16.484
+('NoDesignation', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'Washington')	0.014	1.000	16.484
+('NoDesignation', 'Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley',)	0.014	1.000	16.484
+('NoDesignation', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'US', 'Washington')	0.014	1.000	16.484
+('NoDesignation', 'Washington', 'Columbia Valley (WA)') ==> ('Columbia Valley', 'US')	0.014	1.000	16.484
+('NoDesignation', 'Columbia Valley (WA)', 'US') ==> ('Columbia Valley', 'Washington')	0.014	1.000	16.484
+('Columbia Valley (WA)', 'NoDesignation', 'Washington', 'US') ==> ('Columbia Valley',)	0.014	1.000	16.484
+('Bordeaux-style Red Blend',) ==> ('Bordeaux', 'NoDesignation')	0.016	0.336	16.458
+('Bordeaux', 'NoDesignation') ==> ('Bordeaux-style Red Blend',)	0.016	0.801	16.458
+('Bordeaux-style Red Blend',) ==> ('France', 'Bordeaux', 'NoDesignation')	0.016	0.336	16.458
+('France', 'Bordeaux', 'NoDesignation') ==> ('Bordeaux-style Red Blend',)	0.016	0.801	16.458
+('Bordeaux-style Red Blend',) ==> ('Bordeaux', 'NoDesignation', 'NoRegion_2')	0.016	0.336	16.458
+('Bordeaux', 'NoDesignation', 'NoRegion_2') ==> ('Bordeaux-style Red Blend',)	0.016	0.801	16.458
+('Bordeaux-style Red Blend',) ==> ('France', 'Bordeaux', 'NoDesignation', 'NoRegion_2')	0.016	0.336	16.458
+('France', 'Bordeaux', 'NoDesignation', 'NoRegion_2') ==> ('Bordeaux-style Red Blend',)	0.016	0.801	16.458
+('Bordeaux',) ==> ('Bordeaux-style Red Blend',)	0.032	0.784	16.114
+('Bordeaux-style Red Blend',) ==> ('Bordeaux',)	0.032	0.652	16.114
+('Bordeaux-style Red Blend',) ==> ('Bordeaux', 'NoRegion_2')	0.032	0.652	16.114
+('Bordeaux', 'NoRegion_2') ==> ('Bordeaux-style Red Blend',)	0.032	0.784	16.114
+('Bordeaux-style Red Blend',) ==> ('France', 'Bordeaux')	0.032	0.652	16.114
+('France', 'Bordeaux') ==> ('Bordeaux-style Red Blend',)	0.032	0.784	16.114
+('Bordeaux-style Red Blend',) ==> ('France', 'Bordeaux', 'NoRegion_2')	0.032	0.652	16.114
+('France', 'Bordeaux', 'NoRegion_2') ==> ('Bordeaux-style Red Blend',)	0.032	0.784	16.114
+('Sangiovese',) ==> ('Tuscany',)	0.017	0.756	15.678
+('Sangiovese',) ==> ('NoRegion_2', 'Tuscany')	0.017	0.756	15.678
+('Sangiovese',) ==> ('Tuscany', 'Italy')	0.017	0.756	15.678
+('Sangiovese',) ==> ('NoRegion_2', 'Tuscany', 'Italy')	0.017	0.756	15.678
+('Tuscany',) ==> ('Sangiovese',)	0.017	0.348	15.678
+('NoRegion_2', 'Tuscany') ==> ('Sangiovese',)	0.017	0.348	15.678
+('Tuscany', 'Italy') ==> ('Sangiovese',)	0.017	0.348	15.678
+('NoRegion_2', 'Tuscany', 'Italy') ==> ('Sangiovese',)	0.017	0.348	15.678
+('Columbia Valley',) ==> ('Washington',)	0.061	1.000	15.481
+('Washington',) ==> ('Columbia Valley',)	0.061	0.939	15.481
+('Washington',) ==> ('Columbia Valley (WA)',)	0.033	0.510	15.481
+('Columbia Valley (WA)',) ==> ('Washington',)	0.033	1.000	15.481
+('Washington',) ==> ('Columbia Valley', 'Columbia Valley (WA)')	0.033	0.510	15.481
+('Columbia Valley', 'Columbia Valley (WA)') ==> ('Washington',)	0.033	1.000	15.481
+('Columbia Valley',) ==> ('US', 'Washington')	0.061	1.000	15.481
+('Washington',) ==> ('Columbia Valley', 'US')	0.061	0.939	15.481
+('Columbia Valley', 'US') ==> ('Washington',)	0.061	1.000	15.481
+('US', 'Washington') ==> ('Columbia Valley',)	0.061	0.939	15.481
+('Washington',) ==> ('Columbia Valley', 'NoDesignation')	0.022	0.341	15.481
+('Columbia Valley', 'NoDesignation') ==> ('Washington',)	0.022	1.000	15.481
+('NoDesignation', 'Columbia Valley (WA)') ==> ('Washington',)	0.014	1.000	15.481
+('Washington',) ==> ('US', 'Columbia Valley (WA)')	0.033	0.510	15.481
+('Columbia Valley (WA)',) ==> ('US', 'Washington')	0.033	1.000	15.481
+('US', 'Washington') ==> ('Columbia Valley (WA)',)	0.033	0.510	15.481
+('US', 'Columbia Valley (WA)') ==> ('Washington',)	0.033	1.000	15.481
+('Washington',) ==> ('Columbia Valley', 'US', 'NoDesignation')	0.022	0.341	15.481
+('US', 'Washington') ==> ('Columbia Valley', 'NoDesignation')	0.022	0.341	15.481
+('Columbia Valley', 'NoDesignation') ==> ('US', 'Washington')	0.022	1.000	15.481
+('Columbia Valley', 'US', 'NoDesignation') ==> ('Washington',)	0.022	1.000	15.481
+('NoDesignation', 'Columbia Valley (WA)') ==> ('US', 'Washington')	0.014	1.000	15.481
+('US', 'NoDesignation', 'Columbia Valley (WA)') ==> ('Washington',)	0.014	1.000	15.481
+('Washington',) ==> ('Columbia Valley', 'US', 'Columbia Valley (WA)')	0.033	0.510	15.481
+('US', 'Washington') ==> ('Columbia Valley', 'Columbia Valley (WA)')	0.033	0.510	15.481
+('Columbia Valley', 'Columbia Valley (WA)') ==> ('US', 'Washington')	0.033	1.000	15.481
+('Columbia Valley', 'US', 'Columbia Valley (WA)') ==> ('Washington',)	0.033	1.000	15.481
+('Columbia Valley', 'NoDesignation', 'Columbia Valley (WA)') ==> ('Washington',)	0.014	1.000	15.481
+('Columbia Valley', 'NoDesignation', 'Columbia Valley (WA)') ==> ('US', 'Washington')	0.014	1.000	15.481
+('Columbia Valley', 'NoDesignation', 'Columbia Valley (WA)', 'US') ==> ('Washington',)	0.014	1.000	15.481
+('Burgundy',) ==> ('Pinot Noir', 'NoRegion_2')	0.012	0.414	15.440
+('Pinot Noir', 'NoRegion_2') ==> ('Burgundy',)	0.012	0.441	15.440
+('Pinot Noir', 'NoRegion_2') ==> ('Burgundy', 'France')	0.012	0.441	15.440
+('Burgundy', 'France') ==> ('Pinot Noir', 'NoRegion_2')	0.012	0.414	15.440
+('Columbia Valley',) ==> ('NoDesignation', 'Washington')	0.022	0.363	15.305
+('NoDesignation', 'Washington') ==> ('Columbia Valley',)	0.022	0.928	15.305
+('Columbia Valley',) ==> ('US', 'Washington', 'NoDesignation')	0.022	0.363	15.305
+('Columbia Valley', 'US') ==> ('NoDesignation', 'Washington')	0.022	0.363	15.305
+('NoDesignation', 'Washington') ==> ('Columbia Valley', 'US')	0.022	0.928	15.305
+('US', 'Washington', 'NoDesignation') ==> ('Columbia Valley',)	0.022	0.928	15.305
+('Tempranillo',) ==> ('Spain',)	0.014	0.838	15.293
+('Tempranillo',) ==> ('Spain', 'NoRegion_2')	0.014	0.838	15.293
+('Napa Valley',) ==> ('Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('Napa Valley',) ==> ('US', 'Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('US', 'Napa Valley') ==> ('Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('Napa Valley',) ==> ('California', 'Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('California', 'Napa Valley') ==> ('Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('Napa Valley',) ==> ('California', 'US', 'Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('California', 'Napa Valley') ==> ('US', 'Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('US', 'Napa Valley') ==> ('California', 'Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('California', 'US', 'Napa Valley') ==> ('Cabernet Sauvignon', 'Napa')	0.017	0.405	14.543
+('Cabernet Sauvignon', 'Napa') ==> ('Napa Valley',)	0.017	0.598	14.543
+('Cabernet Sauvignon', 'Napa') ==> ('US', 'Napa Valley')	0.017	0.598	14.543
+('US', 'Cabernet Sauvignon', 'Napa') ==> ('Napa Valley',)	0.017	0.598	14.543
+('Cabernet Sauvignon', 'Napa') ==> ('California', 'Napa Valley')	0.017	0.598	14.543
+('California', 'Cabernet Sauvignon', 'Napa') ==> ('Napa Valley',)	0.017	0.598	14.543
+('Cabernet Sauvignon', 'Napa') ==> ('California', 'US', 'Napa Valley')	0.017	0.598	14.543
+('California', 'Cabernet Sauvignon', 'Napa') ==> ('US', 'Napa Valley')	0.017	0.598	14.543
+('US', 'Cabernet Sauvignon', 'Napa') ==> ('California', 'Napa Valley')	0.017	0.598	14.543
+('California', 'US', 'Cabernet Sauvignon', 'Napa') ==> ('Napa Valley',)	0.017	0.598	14.543
+('NoRegion_1', 'NoDesignation') ==> ('New Zealand',)	0.011	0.317	14.397
+('NoRegion_1', 'NoDesignation') ==> ('New Zealand', 'NoRegion_2')	0.011	0.317	14.397
+('NoRegion_1', 'NoDesignation', 'NoRegion_2') ==> ('New Zealand',)	0.011	0.317	14.397
+('New Zealand',) ==> ('NoRegion_1', 'NoDesignation')	0.011	0.523	14.397
+('New Zealand',) ==> ('NoRegion_1', 'NoDesignation', 'NoRegion_2')	0.011	0.523	14.397
+('New Zealand', 'NoRegion_2') ==> ('NoRegion_1', 'NoDesignation')	0.011	0.523	14.397
+('Russian River Valley',) ==> ('US', 'Sonoma')	0.024	1.000	13.409
+('Pinot Noir', 'Russian River Valley') ==> ('US', 'Sonoma')	0.011	1.000	13.409
+('Russian River Valley',) ==> ('California', 'US', 'Sonoma')	0.024	1.000	13.409
+('California', 'Russian River Valley') ==> ('US', 'Sonoma')	0.024	1.000	13.409
+('Pinot Noir', 'Russian River Valley') ==> ('California', 'US', 'Sonoma')	0.011	1.000	13.409
+('California', 'Pinot Noir', 'Russian River Valley') ==> ('US', 'Sonoma')	0.011	1.000	13.409
+('US', 'Sonoma') ==> ('Russian River Valley',)	0.024	0.317	13.409
+('US', 'Sonoma') ==> ('California', 'Russian River Valley')	0.024	0.317	13.409
+('California', 'US', 'Sonoma') ==> ('Russian River Valley',)	0.024	0.317	13.409
+('Sonoma County',) ==> ('Sonoma',)	0.012	1.000	13.407
+('Russian River Valley',) ==> ('Sonoma',)	0.024	1.000	13.407
+('Sonoma',) ==> ('Russian River Valley',)	0.024	0.317	13.407
+('Pinot Noir', 'Russian River Valley') ==> ('Sonoma',)	0.011	1.000	13.407
+('Sonoma',) ==> ('US', 'Russian River Valley')	0.024	0.317	13.407
+('US', 'Russian River Valley') ==> ('Sonoma',)	0.024	1.000	13.407
+('Sonoma County',) ==> ('California', 'Sonoma')	0.012	1.000	13.407
+('Sonoma County', 'California') ==> ('Sonoma',)	0.012	1.000	13.407
+('Sonoma County', 'US') ==> ('Sonoma',)	0.012	1.000	13.407
+('Russian River Valley',) ==> ('California', 'Sonoma')	0.024	1.000	13.407
+('Sonoma',) ==> ('California', 'Russian River Valley')	0.024	0.317	13.407
+('California', 'Russian River Valley') ==> ('Sonoma',)	0.024	1.000	13.407
+('California', 'Sonoma') ==> ('Russian River Valley',)	0.024	0.317	13.407
+('Pinot Noir', 'Russian River Valley', 'US') ==> ('Sonoma',)	0.011	1.000	13.407
+('Sonoma County', 'US') ==> ('California', 'Sonoma')	0.012	1.000	13.407
+('Sonoma County', 'California', 'US') ==> ('Sonoma',)	0.012	1.000	13.407
+('Sonoma',) ==> ('California', 'US', 'Russian River Valley')	0.024	0.317	13.407
+('California', 'Sonoma') ==> ('US', 'Russian River Valley')	0.024	0.317	13.407
+('US', 'Russian River Valley') ==> ('California', 'Sonoma')	0.024	1.000	13.407
+('California', 'US', 'Russian River Valley') ==> ('Sonoma',)	0.024	1.000	13.407
+('Pinot Noir', 'Russian River Valley') ==> ('California', 'Sonoma')	0.011	1.000	13.407
+('California', 'Pinot Noir', 'Russian River Valley') ==> ('Sonoma',)	0.011	1.000	13.407
+('Pinot Noir', 'Russian River Valley', 'US') ==> ('California', 'Sonoma')	0.011	1.000	13.407
+('California', 'Pinot Noir', 'Russian River Valley', 'US') ==> ('Sonoma',)	0.011	1.000	13.407
+('Sonoma County',) ==> ('US', 'Sonoma')	0.012	0.999	13.401
+('Sonoma County',) ==> ('California', 'US', 'Sonoma')	0.012	0.999	13.401
+('Sonoma County', 'California') ==> ('US', 'Sonoma')	0.012	0.999	13.401
+('Burgundy',) ==> ('Chardonnay', 'NoRegion_2')	0.016	0.557	12.958
+('Chardonnay', 'NoRegion_2') ==> ('Burgundy',)	0.016	0.370	12.958
+('Chardonnay', 'NoRegion_2') ==> ('Burgundy', 'France')	0.016	0.370	12.958
+('Burgundy', 'France') ==> ('Chardonnay', 'NoRegion_2')	0.016	0.557	12.958
+('Tuscany',) ==> ('Red Blend', 'Italy')	0.015	0.304	12.354
+('Tuscany',) ==> ('NoRegion_2', 'Red Blend', 'Italy')	0.015	0.304	12.354
+('NoRegion_2', 'Tuscany') ==> ('Red Blend', 'Italy')	0.015	0.304	12.354
+('Red Blend', 'Italy') ==> ('Tuscany',)	0.015	0.596	12.354
+('Red Blend', 'Italy') ==> ('NoRegion_2', 'Tuscany')	0.015	0.596	12.354
+('NoRegion_2', 'Red Blend', 'Italy') ==> ('Tuscany',)	0.015	0.596	12.354
+('Bordeaux', 'Bordeaux-style Red Blend') ==> ('France', 'NoDesignation')	0.016	0.515	11.797
+('France', 'NoDesignation') ==> ('Bordeaux', 'Bordeaux-style Red Blend')	0.016	0.375	11.797
+('Bordeaux', 'Bordeaux-style Red Blend') ==> ('France', 'NoDesignation', 'NoRegion_2')	0.016	0.515	11.797
+('France', 'NoDesignation') ==> ('Bordeaux-style Red Blend', 'Bordeaux', 'NoRegion_2')	0.016	0.375	11.797
+('Bordeaux-style Red Blend', 'Bordeaux', 'NoRegion_2') ==> ('France', 'NoDesignation')	0.016	0.515	11.797
+('France', 'NoDesignation', 'NoRegion_2') ==> ('Bordeaux', 'Bordeaux-style Red Blend')	0.016	0.375	11.797
+('Paso Robles',) ==> ('Central Coast', 'US')	0.020	1.000	11.553
+('Paso Robles',) ==> ('Central Coast', 'California', 'US')	0.020	1.000	11.553
+('Paso Robles', 'California') ==> ('Central Coast', 'US')	0.020	1.000	11.553
+('Paso Robles',) ==> ('Central Coast',)	0.020	1.000	11.552
+('Paso Robles', 'US') ==> ('Central Coast',)	0.020	1.000	11.552
+('Paso Robles',) ==> ('California', 'Central Coast')	0.020	1.000	11.552
+('Paso Robles', 'California') ==> ('Central Coast',)	0.020	1.000	11.552
+('Paso Robles', 'US') ==> ('California', 'Central Coast')	0.020	1.000	11.552
+('Paso Robles', 'California', 'US') ==> ('Central Coast',)	0.020	1.000	11.552
+('France', 'NoDesignation') ==> ('Bordeaux',)	0.020	0.468	11.550
+('France', 'NoDesignation') ==> ('Bordeaux', 'NoRegion_2')	0.020	0.468	11.550
+('France', 'NoDesignation', 'NoRegion_2') ==> ('Bordeaux',)	0.020	0.468	11.550
+('Bordeaux',) ==> ('France', 'NoDesignation')	0.020	0.504	11.550
+('Bordeaux',) ==> ('France', 'NoDesignation', 'NoRegion_2')	0.020	0.504	11.550
+('Bordeaux', 'NoRegion_2') ==> ('France', 'NoDesignation')	0.020	0.504	11.550
+('NoRegion_2', 'Bordeaux-style Red Blend') ==> ('France', 'NoDesignation')	0.017	0.448	10.261
+('France', 'NoDesignation') ==> ('NoRegion_2', 'Bordeaux-style Red Blend')	0.017	0.381	10.261
+('Willamette Valley',) ==> ('US', 'Pinot Noir')	0.015	0.696	10.152
+('Willamette Valley', 'Oregon') ==> ('Pinot Noir', 'US')	0.015	0.696	10.152
+('NoDesignation', 'Napa') ==> ('California', 'US', 'Cabernet Sauvignon')	0.012	0.482	9.760
+('NoDesignation', 'Napa') ==> ('California', 'Cabernet Sauvignon')	0.012	0.482	9.759
+('US', 'NoDesignation', 'Napa') ==> ('California', 'Cabernet Sauvignon')	0.012	0.482	9.759
+('Napa',) ==> ('California', 'US', 'Cabernet Sauvignon')	0.028	0.466	9.425
+('California', 'US', 'Cabernet Sauvignon') ==> ('Napa',)	0.028	0.563	9.425
+('Napa',) ==> ('California', 'Cabernet Sauvignon')	0.028	0.466	9.424
+('US', 'Napa') ==> ('California', 'Cabernet Sauvignon')	0.028	0.466	9.424
+('California', 'Cabernet Sauvignon') ==> ('Napa',)	0.028	0.563	9.424
+('California', 'Cabernet Sauvignon') ==> ('US', 'Napa')	0.028	0.563	9.424
+('California', 'NoDesignation', 'Cabernet Sauvignon') ==> ('Napa',)	0.012	0.546	9.145
+('California', 'NoDesignation', 'Cabernet Sauvignon') ==> ('US', 'Napa')	0.012	0.546	9.145
+('California', 'NoDesignation', 'Cabernet Sauvignon', 'US') ==> ('Napa',)	0.012	0.546	9.145
+('Russian River Valley',) ==> ('California', 'Pinot Noir')	0.011	0.454	8.977
+('Russian River Valley',) ==> ('California', 'Pinot Noir', 'US')	0.011	0.454	8.977
+('US', 'Russian River Valley') ==> ('California', 'Pinot Noir')	0.011	0.454	8.977
+('Russian River Valley', 'Sonoma') ==> ('California', 'Pinot Noir')	0.011	0.454	8.977
+('Russian River Valley', 'Sonoma') ==> ('California', 'Pinot Noir', 'US')	0.011	0.454	8.977
+('US', 'Russian River Valley', 'Sonoma') ==> ('California', 'Pinot Noir')	0.011	0.454	8.977
+('Napa Valley', 'Napa') ==> ('California', 'US', 'Cabernet Sauvignon')	0.017	0.405	8.191
+('California', 'US', 'Cabernet Sauvignon') ==> ('Napa Valley', 'Napa')	0.017	0.337	8.191
+('California', 'Cabernet Sauvignon') ==> ('Napa', 'Napa Valley')	0.017	0.337	8.190
+('Napa', 'Napa Valley') ==> ('California', 'Cabernet Sauvignon')	0.017	0.405	8.190
+('California', 'Cabernet Sauvignon') ==> ('Napa Valley', 'US', 'Napa')	0.017	0.337	8.190
+('Napa Valley', 'US', 'Napa') ==> ('California', 'Cabernet Sauvignon')	0.017	0.405	8.190
+('Napa Valley',) ==> ('California', 'US', 'Cabernet Sauvignon')	0.017	0.405	8.190
+('California', 'US', 'Cabernet Sauvignon') ==> ('Napa Valley',)	0.017	0.337	8.190
+('Napa Valley',) ==> ('California', 'Cabernet Sauvignon')	0.017	0.405	8.189
+('California', 'Cabernet Sauvignon') ==> ('Napa Valley',)	0.017	0.337	8.189
+('California', 'Cabernet Sauvignon') ==> ('US', 'Napa Valley')	0.017	0.337	8.189
+('US', 'Napa Valley') ==> ('California', 'Cabernet Sauvignon')	0.017	0.405	8.189
+('Oregon',) ==> ('US', 'Pinot Noir')	0.017	0.557	8.120
+('NoDesignation', 'Napa') ==> ('US', 'Cabernet Sauvignon')	0.012	0.482	7.926
+('California', 'NoDesignation', 'Napa') ==> ('US', 'Cabernet Sauvignon')	0.012	0.482	7.926
+('Bordeaux-style Red Blend',) ==> ('France', 'NoDesignation')	0.017	0.342	7.827
+('Bordeaux-style Red Blend',) ==> ('France', 'NoDesignation', 'NoRegion_2')	0.017	0.342	7.827
+('France', 'NoDesignation') ==> ('Bordeaux-style Red Blend',)	0.017	0.381	7.827
+('France', 'NoDesignation', 'NoRegion_2') ==> ('Bordeaux-style Red Blend',)	0.017	0.381	7.827
+('NoDesignation', 'Italy') ==> ('Tuscany',)	0.016	0.376	7.798
+('NoDesignation', 'Italy') ==> ('NoRegion_2', 'Tuscany')	0.016	0.376	7.798
+('NoRegion_2', 'NoDesignation', 'Italy') ==> ('Tuscany',)	0.016	0.376	7.798
+('Tuscany',) ==> ('NoDesignation', 'Italy')	0.016	0.340	7.798
+('Tuscany',) ==> ('NoRegion_2', 'NoDesignation', 'Italy')	0.016	0.340	7.798
+('NoRegion_2', 'Tuscany') ==> ('NoDesignation', 'Italy')	0.016	0.340	7.798
+('Napa',) ==> ('US', 'Cabernet Sauvignon')	0.028	0.466	7.654
+('US', 'Cabernet Sauvignon') ==> ('Napa',)	0.028	0.457	7.654
+('California', 'Napa') ==> ('US', 'Cabernet Sauvignon')	0.028	0.466	7.654
+('US', 'Cabernet Sauvignon') ==> ('California', 'Napa')	0.028	0.457	7.654
+('Willamette Valley',) ==> ('Pinot Noir',)	0.015	0.696	7.346
+('Willamette Valley', 'Oregon') ==> ('Pinot Noir',)	0.015	0.696	7.346
+('US', 'Willamette Valley') ==> ('Pinot Noir',)	0.015	0.696	7.346
+('US', 'Willamette Valley', 'Oregon') ==> ('Pinot Noir',)	0.015	0.696	7.346
+('US', 'Cabernet Sauvignon', 'NoDesignation') ==> ('Napa',)	0.012	0.436	7.302
+('NoDesignation', 'Cabernet Sauvignon', 'US') ==> ('California', 'Napa')	0.012	0.436	7.302
+('Loire Valley',) ==> ('France',)	0.012	1.000	7.154
+('Bordeaux',) ==> ('France',)	0.040	1.000	7.154
+('Southwest France',) ==> ('France',)	0.011	1.000	7.154
+('Alsace',) ==> ('France',)	0.011	1.000	7.154
+('Burgundy',) ==> ('France',)	0.029	1.000	7.154
+('Loire Valley',) ==> ('France', 'NoRegion_2')	0.012	1.000	7.154
+('Loire Valley', 'NoRegion_2') ==> ('France',)	0.012	1.000	7.154
+('Burgundy', 'Pinot Noir') ==> ('France',)	0.012	1.000	7.154
+('Bordeaux', 'Bordeaux-style Red Blend') ==> ('France',)	0.032	1.000	7.154
+('Burgundy',) ==> ('France', 'NoRegion_2')	0.029	1.000	7.154
+('Burgundy', 'NoRegion_2') ==> ('France',)	0.029	1.000	7.154
+('Bordeaux', 'NoDesignation') ==> ('France',)	0.020	1.000	7.154
+('Burgundy', 'Chardonnay') ==> ('France',)	0.016	1.000	7.154
+('Alsace',) ==> ('France', 'NoRegion_2')	0.011	1.000	7.154
+('Alsace', 'NoRegion_2') ==> ('France',)	0.011	1.000	7.154
+('Bordeaux',) ==> ('France', 'NoRegion_2')	0.040	1.000	7.154
+('Bordeaux', 'NoRegion_2') ==> ('France',)	0.040	1.000	7.154
+('Southwest France',) ==> ('France', 'NoRegion_2')	0.011	1.000	7.154
+('Southwest France', 'NoRegion_2') ==> ('France',)	0.011	1.000	7.154
+('Burgundy', 'Pinot Noir') ==> ('France', 'NoRegion_2')	0.012	1.000	7.154
+('Burgundy', 'Pinot Noir', 'NoRegion_2') ==> ('France',)	0.012	1.000	7.154
+('Bordeaux', 'NoDesignation') ==> ('France', 'NoRegion_2')	0.020	1.000	7.154
+('Bordeaux', 'NoDesignation', 'NoRegion_2') ==> ('France',)	0.020	1.000	7.154
+('Bordeaux', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('France',)	0.016	1.000	7.154
+('Bordeaux', 'Bordeaux-style Red Blend') ==> ('France', 'NoRegion_2')	0.032	1.000	7.154
+('NoRegion_2', 'Bordeaux', 'Bordeaux-style Red Blend') ==> ('France',)	0.032	1.000	7.154
+('Burgundy', 'Chardonnay') ==> ('France', 'NoRegion_2')	0.016	1.000	7.154
+('Burgundy', 'Chardonnay', 'NoRegion_2') ==> ('France',)	0.016	1.000	7.154
+('Bordeaux', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('France', 'NoRegion_2')	0.016	1.000	7.154
+('Bordeaux-style Red Blend', 'Bordeaux', 'NoDesignation', 'NoRegion_2') ==> ('France',)	0.016	1.000	7.154
+('NoRegion_2', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('France',)	0.017	0.985	7.048
+('NoDesignation', 'Bordeaux-style Red Blend') ==> ('France',)	0.017	0.950	6.800
+('NoDesignation', 'Bordeaux-style Red Blend') ==> ('France', 'NoRegion_2')	0.017	0.950	6.800
+('Tuscany',) ==> ('Red Blend', 'NoRegion_2')	0.015	0.304	6.727
+('Tuscany', 'Italy') ==> ('Red Blend', 'NoRegion_2')	0.015	0.304	6.727
+('Red Blend', 'NoRegion_2') ==> ('Tuscany',)	0.015	0.324	6.727
+('Red Blend', 'NoRegion_2') ==> ('Tuscany', 'Italy')	0.015	0.324	6.727
+('Napa Valley', 'Napa') ==> ('US', 'Cabernet Sauvignon')	0.017	0.405	6.652
+('Napa Valley', 'California', 'Napa') ==> ('US', 'Cabernet Sauvignon')	0.017	0.405	6.652
+('Napa Valley',) ==> ('US', 'Cabernet Sauvignon')	0.017	0.405	6.651
+('California', 'Napa Valley') ==> ('US', 'Cabernet Sauvignon')	0.017	0.405	6.651
+('Russian River Valley',) ==> ('US', 'Pinot Noir')	0.011	0.454	6.626
+('Russian River Valley', 'Sonoma') ==> ('Pinot Noir', 'US')	0.011	0.454	6.626
+('California', 'Russian River Valley') ==> ('Pinot Noir', 'US')	0.011	0.454	6.626
+('California', 'Russian River Valley', 'Sonoma') ==> ('Pinot Noir', 'US')	0.011	0.454	6.626
+('"Corvina',) ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Veneto',) ==> ('Italy', 'NoRegion_2')	0.026	1.000	6.429
+('Toscana',) ==> ('NoRegion_2', 'Italy')	0.012	1.000	6.429
+('Central Italy',) ==> ('NoRegion_2', 'Italy')	0.010	1.000	6.429
+(' Molinara"',) ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Brunello di Montalcino',) ==> ('NoRegion_2', 'Italy')	0.012	1.000	6.429
+('Sicily & Sardinia',) ==> ('NoRegion_2', 'Italy')	0.017	1.000	6.429
+('Sicilia',) ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Northeastern Italy',) ==> ('NoRegion_2', 'Italy')	0.013	1.000	6.429
+(' Rondinella',) ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Tuscany',) ==> ('NoRegion_2', 'Italy')	0.048	1.000	6.429
+('NoRegion_2', 'Italy') ==> ('Tuscany',)	0.048	0.310	6.429
+(' Rondinella', '"Corvina') ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Brunello di Montalcino', 'Tuscany') ==> ('NoRegion_2', 'Italy')	0.012	1.000	6.429
+('Sangiovese', 'Tuscany') ==> ('NoRegion_2', 'Italy')	0.017	1.000	6.429
+(' Molinara"', '"Corvina') ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('NoDesignation', 'Tuscany') ==> ('NoRegion_2', 'Italy')	0.016	1.000	6.429
+(' Molinara"', ' Rondinella') ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Red Blend', 'Tuscany') ==> ('NoRegion_2', 'Italy')	0.015	1.000	6.429
+('Sicily & Sardinia', 'Sicilia') ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Toscana', 'Tuscany') ==> ('NoRegion_2', 'Italy')	0.012	1.000	6.429
+('Veneto', '"Corvina') ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Veneto', ' Molinara"') ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('Veneto', ' Rondinella') ==> ('NoRegion_2', 'Italy')	0.011	1.000	6.429
+('"Corvina', ' Molinara"', ' Rondinella') ==> ('Italy', 'NoRegion_2')	0.011	1.000	6.429
+('Veneto', ' Molinara"', ' Rondinella') ==> ('Italy', 'NoRegion_2')	0.011	1.000	6.429
+('Veneto', ' Molinara"', '"Corvina') ==> ('Italy', 'NoRegion_2')	0.011	1.000	6.429
+('Veneto', ' Rondinella', '"Corvina') ==> ('Italy', 'NoRegion_2')	0.011	1.000	6.429
+('Veneto', '"Corvina', ' Molinara"', ' Rondinella') ==> ('Italy', 'NoRegion_2')	0.011	1.000	6.429
+('Italy',) ==> ('Tuscany',)	0.048	0.310	6.429
+('Italy',) ==> ('NoRegion_2', 'Tuscany')	0.048	0.310	6.429
+('Tuscany',) ==> ('Italy',)	0.048	1.000	6.429
+('Brunello di Montalcino',) ==> ('Italy',)	0.012	1.000	6.429
+('Veneto',) ==> ('Italy',)	0.026	1.000	6.429
+('Sicilia',) ==> ('Italy',)	0.011	1.000	6.429
+('Sicily & Sardinia',) ==> ('Italy',)	0.017	1.000	6.429
+(' Rondinella',) ==> ('Italy',)	0.011	1.000	6.429
+('Central Italy',) ==> ('Italy',)	0.010	1.000	6.429
+('Toscana',) ==> ('Italy',)	0.012	1.000	6.429
+('"Corvina',) ==> ('Italy',)	0.011	1.000	6.429
+('Northeastern Italy',) ==> ('Italy',)	0.013	1.000	6.429
+(' Molinara"',) ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', '"Corvina') ==> ('Italy',)	0.011	1.000	6.429
+('Red Blend', 'Tuscany') ==> ('Italy',)	0.015	1.000	6.429
+('"Corvina', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', 'NoRegion_2') ==> ('Italy',)	0.026	1.000	6.429
+('Toscana', 'NoRegion_2') ==> ('Italy',)	0.012	1.000	6.429
+('NoRegion_2', 'Central Italy') ==> ('Italy',)	0.010	1.000	6.429
+('Veneto', ' Molinara"') ==> ('Italy',)	0.011	1.000	6.429
+(' Molinara"', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Brunello di Montalcino', 'NoRegion_2') ==> ('Italy',)	0.012	1.000	6.429
+('NoDesignation', 'Tuscany') ==> ('Italy',)	0.016	1.000	6.429
+(' Rondinella', '"Corvina') ==> ('Italy',)	0.011	1.000	6.429
+('Sicily & Sardinia', 'NoRegion_2') ==> ('Italy',)	0.017	1.000	6.429
+('NoRegion_2', 'Sicilia') ==> ('Italy',)	0.011	1.000	6.429
+('Sangiovese', 'Tuscany') ==> ('Italy',)	0.017	1.000	6.429
+('Toscana', 'Tuscany') ==> ('Italy',)	0.012	1.000	6.429
+('Northeastern Italy', 'NoRegion_2') ==> ('Italy',)	0.013	1.000	6.429
+(' Molinara"', ' Rondinella') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Rondinella') ==> ('Italy',)	0.011	1.000	6.429
+(' Rondinella', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Sicily & Sardinia', 'Sicilia') ==> ('Italy',)	0.011	1.000	6.429
+(' Molinara"', '"Corvina') ==> ('Italy',)	0.011	1.000	6.429
+('Brunello di Montalcino', 'Tuscany') ==> ('Italy',)	0.012	1.000	6.429
+('NoRegion_2', 'Tuscany') ==> ('Italy',)	0.048	1.000	6.429
+('Veneto', ' Molinara"', ' Rondinella') ==> ('Italy',)	0.011	1.000	6.429
+(' Rondinella', '"Corvina', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Rondinella', '"Corvina') ==> ('Italy',)	0.011	1.000	6.429
+('"Corvina', ' Molinara"', ' Rondinella') ==> ('Italy',)	0.011	1.000	6.429
+('NoRegion_2', 'Brunello di Montalcino', 'Tuscany') ==> ('Italy',)	0.012	1.000	6.429
+('NoRegion_2', 'Sangiovese', 'Tuscany') ==> ('Italy',)	0.017	1.000	6.429
+(' Molinara"', '"Corvina', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('NoRegion_2', 'NoDesignation', 'Tuscany') ==> ('Italy',)	0.016	1.000	6.429
+(' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Molinara"', '"Corvina') ==> ('Italy',)	0.011	1.000	6.429
+('NoRegion_2', 'Red Blend', 'Tuscany') ==> ('Italy',)	0.015	1.000	6.429
+('NoRegion_2', 'Sicily & Sardinia', 'Sicilia') ==> ('Italy',)	0.011	1.000	6.429
+('NoRegion_2', 'Toscana', 'Tuscany') ==> ('Italy',)	0.012	1.000	6.429
+('Veneto', '"Corvina', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Molinara"', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Rondinella', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('"Corvina', ' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', '"Corvina', ' Molinara"', ' Rondinella') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Molinara"', ' Rondinella', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Molinara"', '"Corvina', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+('Veneto', ' Rondinella', '"Corvina', 'NoRegion_2') ==> ('Italy',)	0.011	1.000	6.429
+(' Molinara"', 'NoRegion_2', ' Rondinella', '"Corvina', 'Veneto') ==> ('Italy',)	0.011	1.000	6.429
+('Piedmont', 'NoRegion_2') ==> ('Italy',)	0.027	1.000	6.427
+('Piedmont', 'Nebbiolo') ==> ('NoRegion_2', 'Italy')	0.014	1.000	6.426
+('Piedmont',) ==> ('NoRegion_2', 'Italy')	0.027	1.000	6.426
+('Piedmont', 'Nebbiolo') ==> ('Italy',)	0.014	1.000	6.426
+('Piedmont', 'Nebbiolo', 'NoRegion_2') ==> ('Italy',)	0.014	1.000	6.426
+('Piedmont',) ==> ('Italy',)	0.027	1.000	6.426
+('NoRegion_2', 'Nebbiolo') ==> ('Italy',)	0.015	0.990	6.365
+('Sangiovese', 'NoRegion_2') ==> ('Italy',)	0.018	0.989	6.361
+('NoRegion_2', 'Bordeaux-style Red Blend') ==> ('France',)	0.033	0.885	6.332
+('Nebbiolo',) ==> ('NoRegion_2', 'Italy')	0.015	0.977	6.280
+('Nebbiolo',) ==> ('Italy',)	0.015	0.977	6.280
+('Germany',) ==> ('NoRegion_1',)	0.016	1.000	6.023
+('South Africa',) ==> ('NoRegion_1',)	0.015	1.000	6.023
+('Chile',) ==> ('NoRegion_1',)	0.039	1.000	6.023
+('New Zealand',) ==> ('NoRegion_1',)	0.022	1.000	6.023
+('Austria',) ==> ('NoRegion_1',)	0.020	1.000	6.023
+('Portuguese Red',) ==> ('NoRegion_1',)	0.015	1.000	6.023
+('Portugal',) ==> ('NoRegion_1',)	0.035	1.000	6.023
+('Marlborough',) ==> ('NoRegion_1',)	0.011	1.000	6.023
+('Marlborough',) ==> ('NoRegion_1', 'NoRegion_2')	0.011	1.000	6.023
+('Marlborough', 'NoRegion_2') ==> ('NoRegion_1',)	0.011	1.000	6.023
+('New Zealand', 'NoDesignation') ==> ('NoRegion_1',)	0.011	1.000	6.023
+('Germany',) ==> ('NoRegion_1', 'NoRegion_2')	0.016	1.000	6.023
+('Germany', 'NoRegion_2') ==> ('NoRegion_1',)	0.016	1.000	6.023
+('Austria',) ==> ('NoRegion_1', 'NoRegion_2')	0.020	1.000	6.023
+('Austria', 'NoRegion_2') ==> ('NoRegion_1',)	0.020	1.000	6.023
+('South Africa',) ==> ('NoRegion_1', 'NoRegion_2')	0.015	1.000	6.023
+('South Africa', 'NoRegion_2') ==> ('NoRegion_1',)	0.015	1.000	6.023
+('Germany', 'Riesling') ==> ('NoRegion_1',)	0.014	1.000	6.023
+('New Zealand',) ==> ('NoRegion_1', 'NoRegion_2')	0.022	1.000	6.023
+('New Zealand', 'NoRegion_2') ==> ('NoRegion_1',)	0.022	1.000	6.023
+('Chile',) ==> ('NoRegion_1', 'NoRegion_2')	0.039	1.000	6.023
+('Chile', 'NoRegion_2') ==> ('NoRegion_1',)	0.039	1.000	6.023
+('Portuguese Red', 'Portugal') ==> ('NoRegion_1',)	0.015	1.000	6.023
+('Portuguese Red',) ==> ('NoRegion_1', 'NoRegion_2')	0.015	1.000	6.023
+('Portuguese Red', 'NoRegion_2') ==> ('NoRegion_1',)	0.015	1.000	6.023
+('New Zealand', 'Marlborough') ==> ('NoRegion_1',)	0.011	1.000	6.023
+('Portugal',) ==> ('NoRegion_1', 'NoRegion_2')	0.035	1.000	6.023
+('Portugal', 'NoRegion_2') ==> ('NoRegion_1',)	0.035	1.000	6.023
+('New Zealand', 'Marlborough') ==> ('NoRegion_1', 'NoRegion_2')	0.011	1.000	6.023
+('New Zealand', 'Marlborough', 'NoRegion_2') ==> ('NoRegion_1',)	0.011	1.000	6.023
+('Portuguese Red', 'Portugal') ==> ('NoRegion_1', 'NoRegion_2')	0.015	1.000	6.023
+('Portuguese Red', 'Portugal', 'NoRegion_2') ==> ('NoRegion_1',)	0.015	1.000	6.023
+('New Zealand', 'NoDesignation') ==> ('NoRegion_1', 'NoRegion_2')	0.011	1.000	6.023
+('New Zealand', 'NoDesignation', 'NoRegion_2') ==> ('NoRegion_1',)	0.011	1.000	6.023
+('Germany', 'Riesling') ==> ('NoRegion_1', 'NoRegion_2')	0.014	1.000	6.023
+('NoRegion_2', 'Germany', 'Riesling') ==> ('NoRegion_1',)	0.014	1.000	6.023
+('Oregon',) ==> ('Pinot Noir',)	0.017	0.557	5.875
+('US', 'Oregon') ==> ('Pinot Noir',)	0.017	0.557	5.875
+('NoDesignation', 'Cabernet Sauvignon') ==> ('Napa',)	0.012	0.349	5.845
+('NoDesignation', 'Cabernet Sauvignon') ==> ('US', 'Napa')	0.012	0.349	5.845
+('NoDesignation', 'Cabernet Sauvignon') ==> ('California', 'Napa')	0.012	0.349	5.845
+('NoDesignation', 'Cabernet Sauvignon') ==> ('California', 'US', 'Napa')	0.012	0.349	5.845
+('Burgundy',) ==> ('Chardonnay',)	0.016	0.557	5.808
+('Burgundy', 'NoRegion_2') ==> ('Chardonnay',)	0.016	0.557	5.808
+('France', 'Burgundy') ==> ('Chardonnay',)	0.016	0.557	5.808
+('Burgundy', 'France', 'NoRegion_2') ==> ('Chardonnay',)	0.016	0.557	5.808
+('Zinfandel', 'California', 'US') ==> ('Sonoma',)	0.010	0.424	5.687
+('Zinfandel', 'California') ==> ('US', 'Sonoma')	0.010	0.424	5.686
+('Zinfandel', 'California') ==> ('Sonoma',)	0.010	0.424	5.685
+('NoDesignation', 'Napa') ==> ('Cabernet Sauvignon',)	0.012	0.482	5.681
+('US', 'NoDesignation', 'Napa') ==> ('Cabernet Sauvignon',)	0.012	0.482	5.681
+('California', 'NoDesignation', 'Napa') ==> ('Cabernet Sauvignon',)	0.012	0.482	5.681
+('California', 'NoDesignation', 'US', 'Napa') ==> ('Cabernet Sauvignon',)	0.012	0.482	5.681
+('Zinfandel', 'US') ==> ('Sonoma',)	0.010	0.413	5.540
+('Zinfandel', 'US') ==> ('California', 'Sonoma')	0.010	0.413	5.540
+('Zinfandel',) ==> ('US', 'Sonoma')	0.010	0.412	5.525
+('Zinfandel',) ==> ('California', 'US', 'Sonoma')	0.010	0.412	5.525
+('Zinfandel',) ==> ('Sonoma',)	0.010	0.412	5.524
+('Zinfandel',) ==> ('California', 'Sonoma')	0.010	0.412	5.524
+('Cabernet Sauvignon',) ==> ('Napa',)	0.028	0.328	5.486
+('Napa',) ==> ('Cabernet Sauvignon',)	0.028	0.466	5.486
+('Cabernet Sauvignon',) ==> ('California', 'Napa')	0.028	0.328	5.486
+('California', 'Napa') ==> ('Cabernet Sauvignon',)	0.028	0.466	5.486
+('Cabernet Sauvignon',) ==> ('US', 'Napa')	0.028	0.328	5.486
+('US', 'Napa') ==> ('Cabernet Sauvignon',)	0.028	0.466	5.486
+('Cabernet Sauvignon',) ==> ('California', 'US', 'Napa')	0.028	0.328	5.486
+('California', 'US', 'Napa') ==> ('Cabernet Sauvignon',)	0.028	0.466	5.486
+('Sangiovese',) ==> ('NoRegion_2', 'Italy')	0.018	0.813	5.227
+('Sangiovese',) ==> ('Italy',)	0.018	0.813	5.227
+('California Other', 'US') ==> ('California', 'NoDesignation')	0.013	0.538	5.175
+('California Other',) ==> ('California', 'NoDesignation')	0.013	0.538	5.175
+('California Other',) ==> ('California', 'US', 'NoDesignation')	0.013	0.538	5.173
+('California', 'Pinot Noir') ==> ('US', 'Sonoma')	0.020	0.386	5.173
+('California', 'Pinot Noir') ==> ('Sonoma',)	0.020	0.386	5.172
+('California', 'Pinot Noir', 'US') ==> ('Sonoma',)	0.020	0.386	5.172
+('Bordeaux-style Red Blend',) ==> ('France',)	0.033	0.675	4.830
+('Bordeaux-style Red Blend',) ==> ('France', 'NoRegion_2')	0.033	0.675	4.830
+('Russian River Valley',) ==> ('Pinot Noir',)	0.011	0.454	4.794
+('Russian River Valley', 'Sonoma') ==> ('Pinot Noir',)	0.011	0.454	4.794
+('California', 'Russian River Valley') ==> ('Pinot Noir',)	0.011	0.454	4.794
+('US', 'Russian River Valley') ==> ('Pinot Noir',)	0.011	0.454	4.794
+('US', 'Russian River Valley', 'Sonoma') ==> ('Pinot Noir',)	0.011	0.454	4.794
+('California', 'US', 'Russian River Valley') ==> ('Pinot Noir',)	0.011	0.454	4.794
+('California', 'Russian River Valley', 'Sonoma') ==> ('Pinot Noir',)	0.011	0.454	4.794
+('California', 'US', 'Russian River Valley', 'Sonoma') ==> ('Pinot Noir',)	0.011	0.454	4.794
+('Napa Valley', 'Napa') ==> ('Cabernet Sauvignon',)	0.017	0.405	4.768
+('Napa Valley', 'US', 'Napa') ==> ('Cabernet Sauvignon',)	0.017	0.405	4.768
+('Napa', 'California', 'Napa Valley') ==> ('Cabernet Sauvignon',)	0.017	0.405	4.768
+('Napa Valley', 'California', 'US', 'Napa') ==> ('Cabernet Sauvignon',)	0.017	0.405	4.768
+('Napa Valley',) ==> ('Cabernet Sauvignon',)	0.017	0.405	4.767
+('US', 'Napa Valley') ==> ('Cabernet Sauvignon',)	0.017	0.405	4.767
+('California', 'Napa Valley') ==> ('Cabernet Sauvignon',)	0.017	0.405	4.767
+('California', 'US', 'Napa Valley') ==> ('Cabernet Sauvignon',)	0.017	0.405	4.767
+('California', 'Pinot Noir') ==> ('Central Coast', 'US')	0.020	0.397	4.590
+('California', 'Pinot Noir') ==> ('Central Coast',)	0.020	0.397	4.589
+('California', 'Pinot Noir', 'US') ==> ('Central Coast',)	0.020	0.397	4.589
+('NoRegion_2', 'Riesling') ==> ('NoRegion_1',)	0.020	0.759	4.569
+('Tuscany',) ==> ('Red Blend',)	0.015	0.304	4.563
+('Tuscany', 'Italy') ==> ('Red Blend',)	0.015	0.304	4.563
+('NoRegion_2', 'Tuscany') ==> ('Red Blend',)	0.015	0.304	4.563
+('NoRegion_2', 'Tuscany', 'Italy') ==> ('Red Blend',)	0.015	0.304	4.563
+('Burgundy',) ==> ('Pinot Noir',)	0.012	0.414	4.366
+('Burgundy', 'France') ==> ('Pinot Noir',)	0.012	0.414	4.366
+('Burgundy', 'NoRegion_2') ==> ('Pinot Noir',)	0.012	0.414	4.366
+('Burgundy', 'France', 'NoRegion_2') ==> ('Pinot Noir',)	0.012	0.414	4.366
+('Chardonnay', 'California', 'US') ==> ('Sonoma',)	0.014	0.312	4.185
+('California', 'Chardonnay') ==> ('US', 'Sonoma')	0.014	0.312	4.185
+('California', 'Chardonnay') ==> ('Sonoma',)	0.014	0.312	4.185
+('Cabernet Sauvignon', 'Napa') ==> ('California', 'NoDesignation', 'US')	0.012	0.433	4.163
+('Cabernet Sauvignon', 'Napa') ==> ('California', 'NoDesignation')	0.012	0.433	4.163
+('US', 'Cabernet Sauvignon', 'Napa') ==> ('California', 'NoDesignation')	0.012	0.433	4.163
+('Napa Valley', 'Napa') ==> ('California', 'NoDesignation', 'US')	0.018	0.432	4.152
+('Napa Valley', 'Napa') ==> ('California', 'NoDesignation')	0.018	0.432	4.152
+('Napa Valley', 'US', 'Napa') ==> ('California', 'NoDesignation')	0.018	0.432	4.152
+('Napa Valley',) ==> ('California', 'US', 'NoDesignation')	0.018	0.432	4.152
+('Napa Valley',) ==> ('California', 'NoDesignation')	0.018	0.432	4.151
+('US', 'Napa Valley') ==> ('California', 'NoDesignation')	0.018	0.432	4.151
+('California', 'Chardonnay') ==> ('Central Coast',)	0.015	0.351	4.054
+('Chardonnay', 'California', 'US') ==> ('Central Coast',)	0.015	0.351	4.053
+('California', 'Chardonnay') ==> ('Central Coast', 'US')	0.015	0.351	4.053
+('Napa',) ==> ('California', 'US', 'NoDesignation')	0.025	0.418	4.020
+('Napa',) ==> ('California', 'NoDesignation')	0.025	0.418	4.020
+('US', 'Napa') ==> ('California', 'NoDesignation')	0.025	0.418	4.020
+('Sauvignon Blanc', 'NoRegion_2') ==> ('NoRegion_1',)	0.016	0.639	3.850
+('California Other',) ==> ('US', 'NoDesignation')	0.013	0.538	3.683
+('California Other', 'California') ==> ('US', 'NoDesignation')	0.013	0.538	3.683
+('Pinot Noir', 'NoRegion_2') ==> ('France',)	0.014	0.513	3.667
+('Red Blend', 'NoRegion_2') ==> ('Italy',)	0.025	0.545	3.501
+('US', 'Cabernet Sauvignon') ==> ('California', 'NoDesignation')	0.022	0.362	3.484
+('Napa Valley',) ==> ('California', 'US')	0.041	1.000	3.392
+('Napa',) ==> ('California', 'US')	0.060	1.000	3.392
+('Russian River Valley',) ==> ('California', 'US')	0.024	1.000	3.392
+('Sierra Foothills',) ==> ('California', 'US')	0.011	1.000	3.392
+('Paso Robles',) ==> ('California', 'US')	0.020	1.000	3.392
+('Napa-Sonoma',) ==> ('California', 'US')	0.011	1.000	3.392
+('Mendocino/Lake Counties',) ==> ('California', 'US')	0.016	1.000	3.392
+('Russian River Valley', 'Sonoma') ==> ('California', 'US')	0.024	1.000	3.392
+('NoDesignation', 'Napa Valley') ==> ('California', 'US')	0.018	1.000	3.392
+('Central Coast', 'Pinot Noir') ==> ('California', 'US')	0.020	1.000	3.392
+('NoDesignation', 'Sonoma') ==> ('California', 'US')	0.023	1.000	3.392
+('Paso Robles', 'Central Coast') ==> ('California', 'US')	0.020	1.000	3.392
+('Central Coast', 'NoDesignation') ==> ('California', 'US')	0.026	1.000	3.392
+('Chardonnay', 'Sonoma') ==> ('California', 'US')	0.014	1.000	3.392
+('Cabernet Sauvignon', 'Napa Valley') ==> ('California', 'US')	0.017	1.000	3.392
+('Zinfandel', 'Sonoma') ==> ('California', 'US')	0.010	1.000	3.392
+('Napa Valley', 'Napa') ==> ('California', 'US')	0.041	1.000	3.392
+('Pinot Noir', 'Russian River Valley') ==> ('California', 'US')	0.011	1.000	3.392
+('Pinot Noir', 'Sonoma') ==> ('California', 'US')	0.020	1.000	3.392
+('Cabernet Sauvignon', 'Napa') ==> ('California', 'US')	0.028	1.000	3.392
+('NoDesignation', 'Napa') ==> ('California', 'US')	0.025	1.000	3.392
+('Pinot Noir', 'Russian River Valley', 'Sonoma') ==> ('California', 'US')	0.011	1.000	3.392
+('NoDesignation', 'Cabernet Sauvignon', 'Napa') ==> ('California', 'US')	0.012	1.000	3.392
+('Napa Valley', 'NoDesignation', 'Napa') ==> ('California', 'US')	0.018	1.000	3.392
+('Napa Valley', 'Cabernet Sauvignon', 'Napa') ==> ('California', 'US')	0.017	1.000	3.392
+('Central Coast',) ==> ('California', 'US')	0.087	1.000	3.391
+('Sonoma',) ==> ('California', 'US')	0.075	1.000	3.391
+('Napa-Sonoma',) ==> ('California',)	0.011	1.000	3.391
+('Sonoma',) ==> ('California',)	0.075	1.000	3.391
+('Sonoma County',) ==> ('California',)	0.012	1.000	3.391
+('California Other',) ==> ('California',)	0.023	1.000	3.391
+('Mendocino/Lake Counties',) ==> ('California',)	0.016	1.000	3.391
+('Napa',) ==> ('California',)	0.060	1.000	3.391
+('Russian River Valley',) ==> ('California',)	0.024	1.000	3.391
+('Sierra Foothills',) ==> ('California',)	0.011	1.000	3.391
+('Napa Valley',) ==> ('California',)	0.041	1.000	3.391
+('Paso Robles',) ==> ('California',)	0.020	1.000	3.391
+('Central Coast',) ==> ('California',)	0.087	1.000	3.391
+('Central Coast', 'Pinot Noir') ==> ('California',)	0.020	1.000	3.391
+('Zinfandel', 'Sonoma') ==> ('California',)	0.010	1.000	3.391
+('California Other', 'US') ==> ('California',)	0.023	1.000	3.391
+('Cabernet Sauvignon', 'Napa') ==> ('California',)	0.028	1.000	3.391
+('US', 'Napa Valley') ==> ('California',)	0.041	1.000	3.391
+('Pinot Noir', 'Sonoma') ==> ('California',)	0.020	1.000	3.391
+('Sonoma County', 'Sonoma') ==> ('California',)	0.012	1.000	3.391
+('Chardonnay', 'Central Coast') ==> ('California',)	0.015	1.000	3.391
+('Central Coast', 'NoDesignation') ==> ('California',)	0.026	1.000	3.391
+('US', 'Napa') ==> ('California',)	0.060	1.000	3.391
+('US', 'Russian River Valley') ==> ('California',)	0.024	1.000	3.391
+('US', 'Sierra Foothills') ==> ('California',)	0.011	1.000	3.391
+('Central Coast', 'US') ==> ('California',)	0.087	1.000	3.391
+('Cabernet Sauvignon', 'Napa Valley') ==> ('California',)	0.017	1.000	3.391
+('US', 'Sonoma') ==> ('California',)	0.075	1.000	3.391
+('Paso Robles', 'US') ==> ('California',)	0.020	1.000	3.391
+('Sonoma County', 'US') ==> ('California',)	0.012	1.000	3.391
+('Napa', 'Napa Valley') ==> ('California',)	0.041	1.000	3.391
+('Napa-Sonoma', 'US') ==> ('California',)	0.011	1.000	3.391
+('Mendocino/Lake Counties', 'US') ==> ('California',)	0.016	1.000	3.391
+('NoDesignation', 'Napa Valley') ==> ('California',)	0.018	1.000	3.391
+('Chardonnay', 'Sonoma') ==> ('California',)	0.014	1.000	3.391
+('NoDesignation', 'Sonoma') ==> ('California',)	0.023	1.000	3.391
+('Paso Robles', 'Central Coast') ==> ('California',)	0.020	1.000	3.391
+('NoDesignation', 'Napa') ==> ('California',)	0.025	1.000	3.391
+('Pinot Noir', 'Russian River Valley') ==> ('California',)	0.011	1.000	3.391
+('California Other', 'NoDesignation') ==> ('California',)	0.013	1.000	3.391
+('Russian River Valley', 'Sonoma') ==> ('California',)	0.024	1.000	3.391
+('Sonoma County', 'US', 'Sonoma') ==> ('California',)	0.012	1.000	3.391
+('NoDesignation', 'Cabernet Sauvignon', 'Napa') ==> ('California',)	0.012	1.000	3.391
+('US', 'Russian River Valley', 'Sonoma') ==> ('California',)	0.024	1.000	3.391
+('US', 'NoDesignation', 'Napa Valley') ==> ('California',)	0.018	1.000	3.391
+('Central Coast', 'Pinot Noir', 'US') ==> ('California',)	0.020	1.000	3.391
+('Sonoma', 'US', 'NoDesignation') ==> ('California',)	0.023	1.000	3.391
+('Paso Robles', 'Central Coast', 'US') ==> ('California',)	0.020	1.000	3.391
+('Central Coast', 'US', 'NoDesignation') ==> ('California',)	0.026	1.000	3.391
+('Chardonnay', 'US', 'Sonoma') ==> ('California',)	0.014	1.000	3.391
+('US', 'Cabernet Sauvignon', 'Napa Valley') ==> ('California',)	0.017	1.000	3.391
+('Napa', 'Cabernet Sauvignon', 'Napa Valley') ==> ('California',)	0.017	1.000	3.391
+('Zinfandel', 'US', 'Sonoma') ==> ('California',)	0.010	1.000	3.391
+('Chardonnay', 'Central Coast', 'US') ==> ('California',)	0.015	1.000	3.391
+('Napa Valley', 'US', 'Napa') ==> ('California',)	0.041	1.000	3.391
+('California Other', 'US', 'NoDesignation') ==> ('California',)	0.013	1.000	3.391
+('Pinot Noir', 'Russian River Valley', 'US') ==> ('California',)	0.011	1.000	3.391
+('Napa Valley', 'NoDesignation', 'Napa') ==> ('California',)	0.018	1.000	3.391
+('Sonoma', 'Pinot Noir', 'US') ==> ('California',)	0.020	1.000	3.391
+('US', 'Cabernet Sauvignon', 'Napa') ==> ('California',)	0.028	1.000	3.391
+('US', 'NoDesignation', 'Napa') ==> ('California',)	0.025	1.000	3.391
+('Pinot Noir', 'Russian River Valley', 'Sonoma') ==> ('California',)	0.011	1.000	3.391
+('US', 'Pinot Noir', 'Russian River Valley', 'Sonoma') ==> ('California',)	0.011	1.000	3.391
+('US', 'NoDesignation', 'Cabernet Sauvignon', 'Napa') ==> ('California',)	0.012	1.000	3.391
+('Napa Valley', 'NoDesignation', 'US', 'Napa') ==> ('California',)	0.018	1.000	3.391
+('Napa Valley', 'US', 'Cabernet Sauvignon', 'Napa') ==> ('California',)	0.017	1.000	3.391
+('Central Coast', 'Chardonnay') ==> ('California', 'US')	0.015	1.000	3.390
+('California Other', 'NoDesignation') ==> ('California', 'US')	0.013	0.999	3.390
+('Sonoma County',) ==> ('California', 'US')	0.012	0.999	3.390
+('Sonoma County', 'Sonoma') ==> ('California', 'US')	0.012	0.999	3.390
+('California Other',) ==> ('California', 'US')	0.023	0.999	3.390
+('Zinfandel', 'US') ==> ('California',)	0.025	0.974	3.304
+('Zinfandel',) ==> ('California',)	0.025	0.972	3.295
+('Zinfandel',) ==> ('California', 'US')	0.025	0.971	3.295
+('Riesling',) ==> ('NoRegion_1',)	0.020	0.544	3.276
+('Riesling',) ==> ('NoRegion_1', 'NoRegion_2')	0.020	0.544	3.276
+('New Zealand',) ==> ('NoDesignation', 'NoRegion_2')	0.011	0.523	3.258
+('NoRegion_1', 'New Zealand') ==> ('NoDesignation', 'NoRegion_2')	0.011	0.523	3.258
+('Bordeaux', 'Bordeaux-style Red Blend') ==> ('NoDesignation', 'NoRegion_2')	0.016	0.515	3.212
+('France', 'Bordeaux', 'Bordeaux-style Red Blend') ==> ('NoDesignation', 'NoRegion_2')	0.016	0.515	3.212
+('Chardonnay', 'NoRegion_2') ==> ('France',)	0.019	0.445	3.187
+('France', 'Bordeaux-style Red Blend') ==> ('NoDesignation', 'NoRegion_2')	0.017	0.506	3.156
+('Bordeaux',) ==> ('NoDesignation', 'NoRegion_2')	0.020	0.504	3.144
+('France', 'Bordeaux') ==> ('NoDesignation', 'NoRegion_2')	0.020	0.504	3.144
+('California', 'Cabernet Sauvignon') ==> ('US', 'NoDesignation')	0.022	0.446	3.055
+('Chardonnay', 'US') ==> ('California', 'NoDesignation')	0.017	0.311	2.990
+('Cabernet Sauvignon', 'Napa') ==> ('US', 'NoDesignation')	0.012	0.433	2.965
+('California', 'Cabernet Sauvignon', 'Napa') ==> ('NoDesignation', 'US')	0.012	0.433	2.965
+('Napa', 'Napa Valley') ==> ('US', 'NoDesignation')	0.018	0.432	2.957
+('Napa Valley', 'California', 'Napa') ==> ('NoDesignation', 'US')	0.018	0.432	2.957
+('Napa Valley',) ==> ('US', 'NoDesignation')	0.018	0.432	2.956
+('California', 'Napa Valley') ==> ('US', 'NoDesignation')	0.018	0.432	2.956
+('US', 'Sonoma') ==> ('California', 'NoDesignation')	0.023	0.305	2.930
+('Sonoma',) ==> ('California', 'US', 'NoDesignation')	0.023	0.305	2.930
+('Sonoma',) ==> ('California', 'NoDesignation')	0.023	0.305	2.929
+('Sauvignon Blanc', 'US') ==> ('California',)	0.015	0.858	2.911
+('Napa',) ==> ('US', 'NoDesignation')	0.025	0.418	2.863
+('California', 'Napa') ==> ('US', 'NoDesignation')	0.025	0.418	2.863
+('Columbia Valley (WA)',) ==> ('US', 'NoDesignation')	0.014	0.416	2.847
+('Columbia Valley', 'Columbia Valley (WA)') ==> ('US', 'NoDesignation')	0.014	0.416	2.847
+('Washington', 'Columbia Valley (WA)') ==> ('US', 'NoDesignation')	0.014	0.416	2.847
+('Columbia Valley', 'Washington', 'Columbia Valley (WA)') ==> ('NoDesignation', 'US')	0.014	0.416	2.847
+('Merlot',) ==> ('US', 'NoDesignation')	0.014	0.414	2.835
+('Cabernet Sauvignon', 'NoRegion_2') ==> ('NoRegion_1',)	0.012	0.459	2.762
+('US', 'Cabernet Sauvignon') ==> ('California',)	0.049	0.812	2.754
+('Chardonnay', 'US', 'NoDesignation') ==> ('California',)	0.017	0.804	2.728
+('Chardonnay', 'US') ==> ('California',)	0.043	0.804	2.728
+('US', 'Cabernet Sauvignon', 'NoDesignation') ==> ('California',)	0.022	0.799	2.708
+('Pinot Noir', 'NoDesignation', 'US') ==> ('California',)	0.014	0.782	2.652
+('California', 'Chardonnay') ==> ('US', 'NoDesignation')	0.017	0.387	2.647
+('Washington',) ==> ('NoDesignation', 'US')	0.024	0.367	2.513
+('Pinot Noir', 'US') ==> ('California',)	0.051	0.738	2.503
+('Columbia Valley',) ==> ('NoDesignation', 'US')	0.022	0.363	2.484
+('Columbia Valley', 'Washington') ==> ('US', 'NoDesignation')	0.022	0.363	2.484
+('Finger Lakes',) ==> ('US',)	0.010	1.000	2.419
+('Napa',) ==> ('US',)	0.060	1.000	2.419
+('Napa Valley',) ==> ('US',)	0.041	1.000	2.419
+('Napa-Sonoma',) ==> ('US',)	0.011	1.000	2.419
+('Willamette Valley',) ==> ('US',)	0.022	1.000	2.419
+('Russian River Valley',) ==> ('US',)	0.024	1.000	2.419
+('Washington',) ==> ('US',)	0.065	1.000	2.419
+('Columbia Valley (WA)',) ==> ('US',)	0.033	1.000	2.419
+('Paso Robles',) ==> ('US',)	0.020	1.000	2.419
+('Columbia Valley',) ==> ('US',)	0.061	1.000	2.419
+('Oregon',) ==> ('US',)	0.030	1.000	2.419
+('New York',) ==> ('US',)	0.016	1.000	2.419
+('Mendocino/Lake Counties',) ==> ('US',)	0.016	1.000	2.419
+('Sierra Foothills',) ==> ('US',)	0.011	1.000	2.419
+('New York', 'Finger Lakes') ==> ('US',)	0.010	1.000	2.419
+('Chardonnay', 'Sonoma') ==> ('US',)	0.014	1.000	2.419
+('NoDesignation', 'Columbia Valley (WA)') ==> ('US',)	0.014	1.000	2.419
+('Cabernet Sauvignon', 'Napa Valley') ==> ('US',)	0.017	1.000	2.419
+('Russian River Valley', 'Sonoma') ==> ('US',)	0.024	1.000	2.419
+('California', 'Napa Valley') ==> ('US',)	0.041	1.000	2.419
+('NoDesignation', 'Napa') ==> ('US',)	0.025	1.000	2.419
+('Willamette Valley', 'Oregon') ==> ('US',)	0.022	1.000	2.419
+('Columbia Valley', 'NoDesignation') ==> ('US',)	0.022	1.000	2.419
+('California', 'Red Blend') ==> ('US',)	0.012	1.000	2.419
+('Syrah', 'California') ==> ('US',)	0.018	1.000	2.419
+('Sauvignon Blanc', 'California') ==> ('US',)	0.015	1.000	2.419
+('California', 'Napa') ==> ('US',)	0.060	1.000	2.419
+('Pinot Noir', 'Oregon') ==> ('US',)	0.017	1.000	2.419
+('Central Coast', 'Pinot Noir') ==> ('US',)	0.020	1.000	2.419
+('Zinfandel', 'Sonoma') ==> ('US',)	0.010	1.000	2.419
+('Paso Robles', 'Central Coast') ==> ('US',)	0.020	1.000	2.419
+('California', 'Russian River Valley') ==> ('US',)	0.024	1.000	2.419
+('California', 'Sierra Foothills') ==> ('US',)	0.011	1.000	2.419
+('Columbia Valley', 'Washington') ==> ('US',)	0.061	1.000	2.419
+('California', 'Merlot') ==> ('US',)	0.015	1.000	2.419
+('NoDesignation', 'Napa Valley') ==> ('US',)	0.018	1.000	2.419
+('Paso Robles', 'California') ==> ('US',)	0.020	1.000	2.419
+('Napa-Sonoma', 'California') ==> ('US',)	0.011	1.000	2.419
+('Cabernet Sauvignon', 'Napa') ==> ('US',)	0.028	1.000	2.419
+('Mendocino/Lake Counties', 'California') ==> ('US',)	0.016	1.000	2.419
+('Washington', 'Columbia Valley (WA)') ==> ('US',)	0.033	1.000	2.419
+('NoDesignation', 'Sonoma') ==> ('US',)	0.023	1.000	2.419
+('California', 'Pinot Noir') ==> ('US',)	0.051	1.000	2.419
+('NoDesignation', 'Washington') ==> ('US',)	0.024	1.000	2.419
+('Columbia Valley', 'Columbia Valley (WA)') ==> ('US',)	0.033	1.000	2.419
+('Pinot Noir', 'Sonoma') ==> ('US',)	0.020	1.000	2.419
+('Central Coast', 'NoDesignation') ==> ('US',)	0.026	1.000	2.419
+('Pinot Noir', 'Russian River Valley') ==> ('US',)	0.011	1.000	2.419
+('Pinot Noir', 'Willamette Valley') ==> ('US',)	0.015	1.000	2.419
+('Napa', 'Napa Valley') ==> ('US',)	0.041	1.000	2.419
+('Pinot Noir', 'Willamette Valley', 'Oregon') ==> ('US',)	0.015	1.000	2.419
+('Pinot Noir', 'Russian River Valley', 'Sonoma') ==> ('US',)	0.011	1.000	2.419
+('NoDesignation', 'Cabernet Sauvignon', 'Napa') ==> ('US',)	0.012	1.000	2.419
+('Columbia Valley', 'NoDesignation', 'Washington') ==> ('US',)	0.022	1.000	2.419
+('Columbia Valley', 'NoDesignation', 'Columbia Valley (WA)') ==> ('US',)	0.014	1.000	2.419
+('California', 'Russian River Valley', 'Sonoma') ==> ('US',)	0.024	1.000	2.419
+('California', 'NoDesignation', 'Napa Valley') ==> ('US',)	0.018	1.000	2.419
+('California', 'Chardonnay', 'NoDesignation') ==> ('US',)	0.017	1.000	2.419
+('Napa', 'NoDesignation', 'Napa Valley') ==> ('US',)	0.018	1.000	2.419
+('NoDesignation', 'Washington', 'Columbia Valley (WA)') ==> ('US',)	0.014	1.000	2.419
+('Central Coast', 'California', 'Pinot Noir') ==> ('US',)	0.020	1.000	2.419
+('California', 'NoDesignation', 'Sonoma') ==> ('US',)	0.023	1.000	2.419
+('Columbia Valley', 'Washington', 'Columbia Valley (WA)') ==> ('US',)	0.033	1.000	2.419
+('Napa Valley', 'Cabernet Sauvignon', 'Napa') ==> ('US',)	0.017	1.000	2.419
+('Paso Robles', 'California', 'Central Coast') ==> ('US',)	0.020	1.000	2.419
+('California', 'Central Coast', 'NoDesignation') ==> ('US',)	0.026	1.000	2.419
+('California', 'Chardonnay', 'Sonoma') ==> ('US',)	0.014	1.000	2.419
+('California', 'Cabernet Sauvignon', 'Napa Valley') ==> ('US',)	0.017	1.000	2.419
+('Zinfandel', 'California', 'Sonoma') ==> ('US',)	0.010	1.000	2.419
+('Napa Valley', 'California', 'Napa') ==> ('US',)	0.041	1.000	2.419
+('California', 'Pinot Noir', 'NoDesignation') ==> ('US',)	0.014	1.000	2.419
+('California', 'Pinot Noir', 'Russian River Valley') ==> ('US',)	0.011	1.000	2.419
+('California', 'Pinot Noir', 'Sonoma') ==> ('US',)	0.020	1.000	2.419
+('California', 'Cabernet Sauvignon', 'Napa') ==> ('US',)	0.028	1.000	2.419
+('California', 'NoDesignation', 'Napa') ==> ('US',)	0.025	1.000	2.419
+('California', 'NoDesignation', 'Cabernet Sauvignon') ==> ('US',)	0.022	1.000	2.419
+('California', 'Pinot Noir', 'Russian River Valley', 'Sonoma') ==> ('US',)	0.011	1.000	2.419
+('California', 'NoDesignation', 'Cabernet Sauvignon', 'Napa') ==> ('US',)	0.012	1.000	2.419
+('Napa Valley', 'California', 'NoDesignation', 'Napa') ==> ('US',)	0.018	1.000	2.419
+('Columbia Valley', 'NoDesignation', 'Washington', 'Columbia Valley (WA)') ==> ('US',)	0.014	1.000	2.419
+('Napa Valley', 'California', 'Cabernet Sauvignon', 'Napa') ==> ('US',)	0.017	1.000	2.419
+('California', 'NoDesignation') ==> ('US',)	0.104	1.000	2.419
+('Central Coast',) ==> ('US',)	0.087	1.000	2.419
+('California', 'Central Coast') ==> ('US',)	0.087	1.000	2.419
+('Sonoma',) ==> ('US',)	0.075	1.000	2.419
+('California', 'Sonoma') ==> ('US',)	0.075	1.000	2.419
+('California',) ==> ('US',)	0.295	1.000	2.419
+('US',) ==> ('California',)	0.295	0.713	2.419
+('California', 'Cabernet Sauvignon') ==> ('US',)	0.049	1.000	2.419
+('California', 'Chardonnay') ==> ('US',)	0.043	1.000	2.419
+('Zinfandel', 'California') ==> ('US',)	0.025	1.000	2.418
+('Chardonnay', 'Central Coast') ==> ('US',)	0.015	1.000	2.418
+('Central Coast', 'California', 'Chardonnay') ==> ('US',)	0.015	1.000	2.418
+('California Other', 'NoDesignation') ==> ('US',)	0.013	0.999	2.418
+('California Other', 'California', 'NoDesignation') ==> ('US',)	0.013	0.999	2.418
+('Sonoma County',) ==> ('US',)	0.012	0.999	2.418
+('Sonoma County', 'Sonoma') ==> ('US',)	0.012	0.999	2.418
+('Sonoma County', 'California') ==> ('US',)	0.012	0.999	2.418
+('Sonoma County', 'California', 'Sonoma') ==> ('US',)	0.012	0.999	2.418
+('California Other',) ==> ('US',)	0.023	0.999	2.418
+('California Other', 'California') ==> ('US',)	0.023	0.999	2.418
+('California',) ==> ('NoDesignation', 'US')	0.104	0.353	2.415
+('NoDesignation', 'US') ==> ('California',)	0.104	0.712	2.415
+('Zinfandel',) ==> ('US',)	0.025	0.997	2.412
+('Red Blend',) ==> ('NoRegion_2', 'Italy')	0.025	0.369	2.375
+('Red Blend',) ==> ('Italy',)	0.025	0.369	2.375
+('Sauvignon Blanc',) ==> ('NoRegion_1',)	0.016	0.381	2.296
+('Sauvignon Blanc',) ==> ('NoRegion_1', 'NoRegion_2')	0.016	0.381	2.296
+('Pinot Noir', 'NoRegion_2') ==> ('NoRegion_1',)	0.010	0.374	2.251
+('Cabernet Sauvignon',) ==> ('NoDesignation', 'US')	0.028	0.325	2.227
+('NoDesignation', 'Cabernet Sauvignon') ==> ('California', 'US')	0.022	0.639	2.168
+('NoDesignation', 'Cabernet Sauvignon') ==> ('California',)	0.022	0.639	2.168
+('Bordeaux-style Red Blend',) ==> ('NoDesignation', 'NoRegion_2')	0.017	0.347	2.163
+('Syrah', 'US') ==> ('California',)	0.018	0.634	2.150
+('US', 'Merlot') ==> ('California',)	0.015	0.632	2.143
+('Tuscany',) ==> ('NoDesignation', 'NoRegion_2')	0.016	0.340	2.122
+('Tuscany', 'Italy') ==> ('NoDesignation', 'NoRegion_2')	0.016	0.340	2.122
+('Sonoma',) ==> ('US', 'NoDesignation')	0.023	0.305	2.086
+('California', 'Sonoma') ==> ('US', 'NoDesignation')	0.023	0.305	2.086
+('Australia',) ==> ('NoDesignation', 'NoRegion_2')	0.011	0.325	2.025
+('NoDesignation', 'Merlot') ==> ('US',)	0.014	0.826	1.998
+('Cabernet Sauvignon',) ==> ('California',)	0.049	0.582	1.974
+('Cabernet Sauvignon',) ==> ('California', 'US')	0.049	0.582	1.974
+('France',) ==> ('NoDesignation', 'NoRegion_2')	0.044	0.312	1.948
+('NoDesignation', 'Cabernet Sauvignon') ==> ('US',)	0.028	0.800	1.936
+('US', 'Merlot') ==> ('NoDesignation',)	0.014	0.579	1.910
+('Argentina',) ==> ('NoDesignation', 'NoRegion_2')	0.011	0.301	1.877
+('Pinot Noir',) ==> ('California', 'US')	0.051	0.534	1.811
+('Pinot Noir',) ==> ('California',)	0.051	0.534	1.811
+('US', 'Red Blend') ==> ('California',)	0.012	0.532	1.803
+('California Other', 'US') ==> ('NoDesignation',)	0.013	0.538	1.777
+('California Other', 'California', 'US') ==> ('NoDesignation',)	0.013	0.538	1.777
+('California Other',) ==> ('NoDesignation',)	0.013	0.538	1.777
+('California Other', 'California') ==> ('NoDesignation',)	0.013	0.538	1.777
+('Syrah',) ==> ('US',)	0.028	0.734	1.776
+('Pinot Noir', 'NoDesignation') ==> ('California', 'US')	0.014	0.521	1.766
+('Pinot Noir', 'NoDesignation') ==> ('California',)	0.014	0.521	1.766
+('Pinot Noir',) ==> ('US',)	0.069	0.724	1.750
+('Cabernet Sauvignon',) ==> ('US',)	0.061	0.717	1.734
+('Merlot',) ==> ('US',)	0.024	0.716	1.731
+('New Zealand',) ==> ('NoDesignation',)	0.011	0.523	1.725
+('NoRegion_1', 'New Zealand') ==> ('NoDesignation',)	0.011	0.523	1.725
+('New Zealand', 'NoRegion_2') ==> ('NoDesignation',)	0.011	0.523	1.725
+('NoRegion_1', 'New Zealand', 'NoRegion_2') ==> ('NoDesignation',)	0.011	0.523	1.725
+('Chardonnay', 'NoDesignation') ==> ('California', 'US')	0.017	0.502	1.702
+('Chardonnay', 'NoDesignation') ==> ('California',)	0.017	0.502	1.702
+('Bordeaux', 'Bordeaux-style Red Blend') ==> ('NoDesignation',)	0.016	0.515	1.700
+('France', 'Bordeaux', 'Bordeaux-style Red Blend') ==> ('NoDesignation',)	0.016	0.515	1.700
+('NoRegion_2', 'Bordeaux', 'Bordeaux-style Red Blend') ==> ('NoDesignation',)	0.016	0.515	1.700
+('Bordeaux-style Red Blend', 'France', 'Bordeaux', 'NoRegion_2') ==> ('NoDesignation',)	0.016	0.515	1.700
+('Reserve',) ==> ('US',)	0.013	0.702	1.697
+('Tuscany',) ==> ('NoRegion_2',)	0.048	1.000	1.678
+('Marlborough',) ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Loire Valley',) ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Brunello di Montalcino',) ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Sicily & Sardinia',) ==> ('NoRegion_2',)	0.017	1.000	1.678
+('Northeastern Italy',) ==> ('NoRegion_2',)	0.013	1.000	1.678
+('France',) ==> ('NoRegion_2',)	0.140	1.000	1.678
+('Australia',) ==> ('NoRegion_2',)	0.033	1.000	1.678
+('Rioja',) ==> ('NoRegion_2',)	0.013	1.000	1.678
+('Portuguese Red',) ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Central Italy',) ==> ('NoRegion_2',)	0.010	1.000	1.678
+('South Australia',) ==> ('NoRegion_2',)	0.020	1.000	1.678
+('NoRegion_1',) ==> ('NoRegion_2',)	0.166	1.000	1.678
+('Burgundy',) ==> ('NoRegion_2',)	0.029	1.000	1.678
+('Chile',) ==> ('NoRegion_2',)	0.039	1.000	1.678
+('Bordeaux',) ==> ('NoRegion_2',)	0.040	1.000	1.678
+('New Zealand',) ==> ('NoRegion_2',)	0.022	1.000	1.678
+('Mendoza',) ==> ('NoRegion_2',)	0.024	1.000	1.678
+('Southwest France',) ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Veneto',) ==> ('NoRegion_2',)	0.026	1.000	1.678
+(' Molinara"',) ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Spain',) ==> ('NoRegion_2',)	0.055	1.000	1.678
+('South Africa',) ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Argentina',) ==> ('NoRegion_2',)	0.037	1.000	1.678
+('Toscana',) ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Germany',) ==> ('NoRegion_2',)	0.016	1.000	1.678
+('Austria',) ==> ('NoRegion_2',)	0.020	1.000	1.678
+('Mendoza Province',) ==> ('NoRegion_2',)	0.031	1.000	1.678
+('Alsace',) ==> ('NoRegion_2',)	0.011	1.000	1.678
+(' Rondinella',) ==> ('NoRegion_2',)	0.011	1.000	1.678
+('"Corvina',) ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Portugal',) ==> ('NoRegion_2',)	0.035	1.000	1.678
+('Northern Spain',) ==> ('NoRegion_2',)	0.032	1.000	1.678
+('Sicilia',) ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoRegion_1', 'Marlborough') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoDesignation', 'Spain') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Piedmont', 'Nebbiolo') ==> ('NoRegion_2',)	0.014	1.000	1.678
+('Tempranillo', 'Spain') ==> ('NoRegion_2',)	0.014	1.000	1.678
+('France', 'Bordeaux-style Red Blend') ==> ('NoRegion_2',)	0.033	1.000	1.678
+('NoRegion_1', 'Germany') ==> ('NoRegion_2',)	0.016	1.000	1.678
+('France', 'Loire Valley') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Germany', 'Riesling') ==> ('NoRegion_2',)	0.014	1.000	1.678
+('NoRegion_1', 'Pinot Noir') ==> ('NoRegion_2',)	0.010	1.000	1.678
+('Mendoza Province', 'Argentina') ==> ('NoRegion_2',)	0.031	1.000	1.678
+('Sangiovese', 'Tuscany') ==> ('NoRegion_2',)	0.017	1.000	1.678
+('Bordeaux', 'NoDesignation') ==> ('NoRegion_2',)	0.020	1.000	1.678
+('"Corvina', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoRegion_1', 'NoDesignation') ==> ('NoRegion_2',)	0.036	1.000	1.678
+(' Rondinella', '"Corvina') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoDesignation', 'Australia') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Veneto', 'Italy') ==> ('NoRegion_2',)	0.026	1.000	1.678
+('NoRegion_1', 'Austria') ==> ('NoRegion_2',)	0.020	1.000	1.678
+('France', 'NoDesignation') ==> ('NoRegion_2',)	0.044	1.000	1.678
+('Burgundy', 'Chardonnay') ==> ('NoRegion_2',)	0.016	1.000	1.678
+('Toscana', 'Italy') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Veneto', ' Rondinella') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Italy', 'Central Italy') ==> ('NoRegion_2',)	0.010	1.000	1.678
+(' Molinara"', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Brunello di Montalcino', 'Italy') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Toscana', 'Tuscany') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('NoDesignation', 'Italy') ==> ('NoRegion_2',)	0.044	1.000	1.678
+('France', 'Pinot Noir') ==> ('NoRegion_2',)	0.014	1.000	1.678
+('Bordeaux', 'Bordeaux-style Red Blend') ==> ('NoRegion_2',)	0.032	1.000	1.678
+('Malbec', 'Argentina') ==> ('NoRegion_2',)	0.014	1.000	1.678
+('Red Blend', 'Tuscany') ==> ('NoRegion_2',)	0.015	1.000	1.678
+('NoRegion_1', 'Sauvignon Blanc') ==> ('NoRegion_2',)	0.016	1.000	1.678
+('NoRegion_1', 'South Africa') ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Red Blend', 'Italy') ==> ('NoRegion_2',)	0.025	1.000	1.678
+('Sicily & Sardinia', 'Italy') ==> ('NoRegion_2',)	0.017	1.000	1.678
+('Italy', 'Sicilia') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('France', 'Burgundy') ==> ('NoRegion_2',)	0.029	1.000	1.678
+('Northern Spain', 'Rioja') ==> ('NoRegion_2',)	0.013	1.000	1.678
+('NoRegion_1', 'Chardonnay') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Northeastern Italy', 'Italy') ==> ('NoRegion_2',)	0.013	1.000	1.678
+('NoDesignation', 'Argentina') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoRegion_1', 'New Zealand') ==> ('NoRegion_2',)	0.022	1.000	1.678
+('NoRegion_1', 'Riesling') ==> ('NoRegion_2',)	0.020	1.000	1.678
+('Veneto', ' Molinara"') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoRegion_1', 'Chile') ==> ('NoRegion_2',)	0.039	1.000	1.678
+('Nebbiolo', 'Italy') ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Mendoza', 'Argentina') ==> ('NoRegion_2',)	0.024	1.000	1.678
+('Sicily & Sardinia', 'Sicilia') ==> ('NoRegion_2',)	0.011	1.000	1.678
+(' Rondinella', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoDesignation', 'Tuscany') ==> ('NoRegion_2',)	0.016	1.000	1.678
+('Piedmont', 'Italy') ==> ('NoRegion_2',)	0.027	1.000	1.678
+('NoRegion_1', 'Portuguese Red') ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Burgundy', 'Pinot Noir') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Portuguese Red', 'Portugal') ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Mendoza', 'Mendoza Province') ==> ('NoRegion_2',)	0.024	1.000	1.678
+('Northern Spain', 'Spain') ==> ('NoRegion_2',)	0.032	1.000	1.678
+('New Zealand', 'Marlborough') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('France', 'Chardonnay') ==> ('NoRegion_2',)	0.019	1.000	1.678
+('Australia', 'South Australia') ==> ('NoRegion_2',)	0.020	1.000	1.678
+('Malbec', 'Mendoza Province') ==> ('NoRegion_2',)	0.013	1.000	1.678
+('NoRegion_1', 'Cabernet Sauvignon') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Veneto', '"Corvina') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Sangiovese', 'Italy') ==> ('NoRegion_2',)	0.018	1.000	1.678
+('France', 'Alsace') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Spain', 'Rioja') ==> ('NoRegion_2',)	0.013	1.000	1.678
+('France', 'Bordeaux') ==> ('NoRegion_2',)	0.040	1.000	1.678
+('Tempranillo', 'Northern Spain') ==> ('NoRegion_2',)	0.012	1.000	1.678
+(' Molinara"', ' Rondinella') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoRegion_1', 'Portugal') ==> ('NoRegion_2',)	0.035	1.000	1.678
+('Italy', 'Tuscany') ==> ('NoRegion_2',)	0.048	1.000	1.678
+('France', 'Southwest France') ==> ('NoRegion_2',)	0.011	1.000	1.678
+(' Molinara"', '"Corvina') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Brunello di Montalcino', 'Tuscany') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('New Zealand', 'NoDesignation') ==> ('NoRegion_2',)	0.011	1.000	1.678
+(' Rondinella', '"Corvina', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Burgundy', 'Pinot Noir', 'France') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Tempranillo', 'Spain', 'Northern Spain') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Veneto', ' Molinara"', ' Rondinella') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('France', 'Bordeaux', 'NoDesignation') ==> ('NoRegion_2',)	0.020	1.000	1.678
+('Tuscany', 'Brunello di Montalcino', 'Italy') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Veneto', ' Molinara"', '"Corvina') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Tuscany', 'Sangiovese', 'Italy') ==> ('NoRegion_2',)	0.017	1.000	1.678
+(' Molinara"', '"Corvina', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoRegion_1', 'New Zealand', 'Marlborough') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Tuscany', 'NoDesignation', 'Italy') ==> ('NoRegion_2',)	0.016	1.000	1.678
+(' Molinara"', ' Rondinella', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('France', 'Bordeaux', 'Bordeaux-style Red Blend') ==> ('NoRegion_2',)	0.032	1.000	1.678
+('Burgundy', 'Chardonnay', 'France') ==> ('NoRegion_2',)	0.016	1.000	1.678
+('Veneto', ' Rondinella', '"Corvina') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Tuscany', 'Red Blend', 'Italy') ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Bordeaux', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('NoRegion_2',)	0.016	1.000	1.678
+('Sicily & Sardinia', 'Italy', 'Sicilia') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Malbec', 'Mendoza Province', 'Argentina') ==> ('NoRegion_2',)	0.013	1.000	1.678
+('NoRegion_1', 'Portuguese Red', 'Portugal') ==> ('NoRegion_2',)	0.015	1.000	1.678
+('Tuscany', 'Toscana', 'Italy') ==> ('NoRegion_2',)	0.012	1.000	1.678
+('Veneto', '"Corvina', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Veneto', ' Molinara"', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Piedmont', 'Nebbiolo', 'Italy') ==> ('NoRegion_2',)	0.014	1.000	1.678
+('Veneto', ' Rondinella', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('France', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('NoRegion_2',)	0.017	1.000	1.678
+('Northern Spain', 'Spain', 'Rioja') ==> ('NoRegion_2',)	0.013	1.000	1.678
+('Mendoza', 'Mendoza Province', 'Argentina') ==> ('NoRegion_2',)	0.024	1.000	1.678
+('NoRegion_1', 'New Zealand', 'NoDesignation') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('NoRegion_1', 'Germany', 'Riesling') ==> ('NoRegion_2',)	0.014	1.000	1.678
+('"Corvina', ' Molinara"', ' Rondinella') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('France', 'Bordeaux', 'NoDesignation', 'Bordeaux-style Red Blend') ==> ('NoRegion_2',)	0.016	1.000	1.678
+('Veneto', '"Corvina', ' Molinara"', ' Rondinella') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('"Corvina', ' Molinara"', ' Rondinella', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Veneto', ' Molinara"', ' Rondinella', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Veneto', ' Molinara"', '"Corvina', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Veneto', ' Rondinella', '"Corvina', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+(' Molinara"', ' Rondinella', '"Corvina', 'Veneto', 'Italy') ==> ('NoRegion_2',)	0.011	1.000	1.678
+('Italy',) ==> ('NoRegion_2',)	0.156	1.000	1.677
+('Piedmont',) ==> ('NoRegion_2',)	0.027	1.000	1.677
+('Reserva',) ==> ('NoRegion_2',)	0.012	0.997	1.673
+('France', 'Bordeaux-style Red Blend') ==> ('NoDesignation',)	0.017	0.506	1.671
+('NoRegion_2', 'France', 'Bordeaux-style Red Blend') ==> ('NoDesignation',)	0.017	0.506	1.671
+('Bordeaux',) ==> ('NoDesignation',)	0.020	0.504	1.664
+('Bordeaux', 'NoRegion_2') ==> ('NoDesignation',)	0.020	0.504	1.664
+('France', 'Bordeaux') ==> ('NoDesignation',)	0.020	0.504	1.664
+('France', 'Bordeaux', 'NoRegion_2') ==> ('NoDesignation',)	0.020	0.504	1.664
+('Nebbiolo',) ==> ('NoRegion_2',)	0.015	0.987	1.655
+('Merlot',) ==> ('NoDesignation',)	0.017	0.501	1.655
+('NoDesignation', 'Bordeaux-style Red Blend') ==> ('NoRegion_2',)	0.017	0.965	1.619
+('Pinot Noir', 'NoDesignation') ==> ('US',)	0.018	0.666	1.611
+('Shiraz',) ==> ('NoRegion_2',)	0.012	0.942	1.580
+('Syrah',) ==> ('California', 'US')	0.018	0.465	1.578
+('Syrah',) ==> ('California',)	0.018	0.465	1.578
+('Sauvignon Blanc',) ==> ('NoDesignation',)	0.020	0.468	1.546
+('Merlot',) ==> ('California', 'US')	0.015	0.452	1.534
+('Merlot',) ==> ('California',)	0.015	0.452	1.534
+('Chardonnay',) ==> ('California',)	0.043	0.451	1.531
+('Chardonnay',) ==> ('California', 'US')	0.043	0.451	1.531
+('Chardonnay', 'NoDesignation') ==> ('US',)	0.021	0.624	1.509
+('NoRegion_2', 'Bordeaux-style Red Blend') ==> ('NoDesignation',)	0.017	0.455	1.501
+('US', 'Cabernet Sauvignon') ==> ('NoDesignation',)	0.028	0.454	1.498
+('California', 'US', 'Cabernet Sauvignon') ==> ('NoDesignation',)	0.022	0.446	1.473
+('California', 'Cabernet Sauvignon') ==> ('NoDesignation',)	0.022	0.446	1.473
+('Tempranillo',) ==> ('NoRegion_2',)	0.015	0.872	1.463
+('Malbec',) ==> ('NoRegion_2',)	0.019	0.872	1.463
+('Cabernet Sauvignon', 'Napa') ==> ('NoDesignation',)	0.012	0.433	1.429
+('US', 'Cabernet Sauvignon', 'Napa') ==> ('NoDesignation',)	0.012	0.433	1.429
+('California', 'Cabernet Sauvignon', 'Napa') ==> ('NoDesignation',)	0.012	0.433	1.429
+('California', 'US', 'Cabernet Sauvignon', 'Napa') ==> ('NoDesignation',)	0.012	0.433	1.429
+('Napa', 'Napa Valley') ==> ('NoDesignation',)	0.018	0.432	1.426
+('Napa', 'US', 'Napa Valley') ==> ('NoDesignation',)	0.018	0.432	1.426
+('Napa Valley', 'California', 'Napa') ==> ('NoDesignation',)	0.018	0.432	1.426
+('Napa Valley', 'California', 'US', 'Napa') ==> ('NoDesignation',)	0.018	0.432	1.426
+('Napa Valley',) ==> ('NoDesignation',)	0.018	0.432	1.425
+('US', 'Napa Valley') ==> ('NoDesignation',)	0.018	0.432	1.425
+('California', 'Napa Valley') ==> ('NoDesignation',)	0.018	0.432	1.425
+('California', 'US', 'Napa Valley') ==> ('NoDesignation',)	0.018	0.432	1.425
+('Sauvignon Blanc', 'NoRegion_2') ==> ('NoDesignation',)	0.011	0.424	1.401
+('Napa',) ==> ('NoDesignation',)	0.025	0.418	1.380
+('US', 'Napa') ==> ('NoDesignation',)	0.025	0.418	1.380
+('California', 'Napa') ==> ('NoDesignation',)	0.025	0.418	1.380
+('California', 'US', 'Napa') ==> ('NoDesignation',)	0.025	0.418	1.380
+('Sangiovese',) ==> ('NoRegion_2',)	0.018	0.822	1.378
+('Columbia Valley (WA)',) ==> ('NoDesignation',)	0.014	0.416	1.373
+('US', 'Columbia Valley (WA)') ==> ('NoDesignation',)	0.014	0.416	1.373
+('Columbia Valley', 'Columbia Valley (WA)') ==> ('NoDesignation',)	0.014	0.416	1.373
+('Washington', 'Columbia Valley (WA)') ==> ('NoDesignation',)	0.014	0.416	1.373
+('Columbia Valley', 'US', 'Columbia Valley (WA)') ==> ('NoDesignation',)	0.014	0.416	1.373
+('US', 'Washington', 'Columbia Valley (WA)') ==> ('NoDesignation',)	0.014	0.416	1.373
+('Columbia Valley', 'Washington', 'Columbia Valley (WA)') ==> ('NoDesignation',)	0.014	0.416	1.373
+('Columbia Valley', 'US', 'Washington', 'Columbia Valley (WA)') ==> ('NoDesignation',)	0.014	0.416	1.373
+('Chardonnay',) ==> ('US',)	0.054	0.561	1.358
+('Cabernet Sauvignon',) ==> ('NoDesignation',)	0.035	0.406	1.341
+('White Blend',) ==> ('NoRegion_2',)	0.015	0.786	1.319
+('Bordeaux-style Red Blend',) ==> ('NoRegion_2',)	0.037	0.763	1.280
+('Chardonnay', 'California', 'US') ==> ('NoDesignation',)	0.017	0.387	1.277
+('Chardonnay', 'US') ==> ('NoDesignation',)	0.021	0.387	1.276
+('California', 'Chardonnay') ==> ('NoDesignation',)	0.017	0.387	1.276
+('Ros¨¦',) ==> ('NoRegion_2',)	0.015	0.760	1.275
+('Washington',) ==> ('NoDesignation',)	0.024	0.367	1.211
+('US', 'Washington') ==> ('NoDesignation',)	0.024	0.367	1.211
+('Riesling',) ==> ('NoRegion_2',)	0.026	0.717	1.203
+('Columbia Valley',) ==> ('NoDesignation',)	0.022	0.363	1.198
+('Columbia Valley', 'US') ==> ('NoDesignation',)	0.022	0.363	1.198
+('Columbia Valley', 'Washington') ==> ('NoDesignation',)	0.022	0.363	1.198
+('Columbia Valley', 'US', 'Washington') ==> ('NoDesignation',)	0.022	0.363	1.198
+('Sauvignon Blanc',) ==> ('California', 'US')	0.015	0.351	1.191
+('Sauvignon Blanc',) ==> ('California',)	0.015	0.351	1.191
+('Bordeaux-style Red Blend',) ==> ('NoDesignation',)	0.018	0.360	1.187
+('NoDesignation',) ==> ('US',)	0.146	0.482	1.166
+('US',) ==> ('NoDesignation',)	0.146	0.353	1.166
+('California', 'US') ==> ('NoDesignation',)	0.104	0.353	1.164
+('NoDesignation',) ==> ('California', 'US')	0.104	0.343	1.164
+('NoDesignation',) ==> ('California',)	0.104	0.343	1.164
+('California',) ==> ('NoDesignation',)	0.104	0.353	1.164
+('Chardonnay',) ==> ('NoDesignation',)	0.033	0.348	1.148
+('Red Blend',) ==> ('NoRegion_2',)	0.045	0.678	1.138
+('Tuscany',) ==> ('NoDesignation',)	0.016	0.340	1.123
+('Tuscany', 'Italy') ==> ('NoDesignation',)	0.016	0.340	1.123
+('NoRegion_2', 'Tuscany') ==> ('NoDesignation',)	0.016	0.340	1.123
+('NoRegion_2', 'Tuscany', 'Italy') ==> ('NoDesignation',)	0.016	0.340	1.123
+('Australia',) ==> ('NoDesignation',)	0.011	0.325	1.072
+('Australia', 'NoRegion_2') ==> ('NoDesignation',)	0.011	0.325	1.072
+('France',) ==> ('NoDesignation',)	0.044	0.312	1.031
+('France', 'NoRegion_2') ==> ('NoDesignation',)	0.044	0.312	1.031
+('Syrah',) ==> ('NoDesignation',)	0.012	0.309	1.019
+('US', 'Sonoma') ==> ('NoDesignation',)	0.023	0.305	1.006
+('California', 'US', 'Sonoma') ==> ('NoDesignation',)	0.023	0.305	1.006
+('Sonoma',) ==> ('NoDesignation',)	0.023	0.305	1.006
+('California', 'Sonoma') ==> ('NoDesignation',)	0.023	0.305	1.006
+('Sauvignon Blanc',) ==> ('NoRegion_2',)	0.025	0.596	1.000
+('Chardonnay', 'NoRegion_2') ==> ('NoDesignation',)	0.013	0.301	0.994
+('Argentina',) ==> ('NoDesignation',)	0.011	0.301	0.993
+('Argentina', 'NoRegion_2') ==> ('NoDesignation',)	0.011	0.301	0.993
+('Sauvignon Blanc',) ==> ('US',)	0.017	0.409	0.990
+('Sauvignon Blanc', 'NoDesignation') ==> ('NoRegion_2',)	0.011	0.540	0.906
+('NoDesignation',) ==> ('NoRegion_2',)	0.160	0.529	0.888
+('Red Blend',) ==> ('US',)	0.022	0.333	0.806
+('Chardonnay',) ==> ('NoRegion_2',)	0.043	0.448	0.752
+('Chardonnay', 'NoDesignation') ==> ('NoRegion_2',)	0.013	0.388	0.651
+('Merlot',) ==> ('NoRegion_2',)	0.010	0.303	0.508
